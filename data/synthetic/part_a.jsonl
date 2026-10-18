@@ -1,0 +1,78 @@
+{"text": "অভিনন্দন! আপনার নাম্বার ৫,০০,০০০ টাকার লটারি জিতেছে। প্রাইজ পেতে 01712345678 নাম্বারে কল করুন।", "label": "scam", "language": "bn", "pattern": "prize_lottery"}
+{"text": "প্রিয় গ্রাহক, আপনার bKash একাউন্ট সাময়িকভাবে বন্ধ করা হয়েছে। ওটিপি দিন এই নাম্বারে 01400000000 অথবা লিংকে ক্লিক করুন bit.ly/bkash-verify", "label": "scam", "language": "bn", "pattern": "fake_otp_mfs"}
+{"text": "আপনার নগদ একাউন্ট আপডেট করুন। এখনই এই লিংকে ক্লিক করুন nagad-verify.xyz এবং আপনার পিন ও ওটিপি দিন।", "label": "scam", "language": "bn", "pattern": "fake_otp_mfs"}
+{"text": "স্যার, আপনার সিম কার্ডের KYC আপডেট না করলে আজ রাতেই নাম্বার বন্ধ হবে। আমার আইডি দিয়ে লিংকে সাবমিট করুন: http://robi-kyc-update.tk", "label": "scam", "language": "bn", "pattern": "kyc_update"}
+{"text": "মাসে ৫০ হাজার টাকা ইনকাম, বাসায় বসে মোবাইল দিয়ে কাজ। কোনো অভিজ্ঞতা লাগবে না। রেজিস্ট্রেশন ফি মাত্র ৫০০ টাকা। হোয়াটসঅ্যাপ করুন 01811111111", "label": "scam", "language": "bn", "pattern": "fake_job"}
+{"text": "প্রেমিকাকে দেখতে চাইলে টাকা পাঠান এই নম্বরে, তারপর ভিডিও কল দেব। বিকাশ 01611223344", "label": "scam", "language": "bn", "pattern": "romance_blackmail"}
+{"text": "আপনার পার্সেল আটকে আছে, ২০০ টাকা ডেলিভারি চার্জ পাঠালেই কুরিয়ার ছেড়ে দেবে। ডেলিভারি ম্যান 01999887766", "label": "scam", "language": "bn", "pattern": "delivery_fee"}
+{"text": "কাস্টম অফিস থেকে বলছি। আপনার নামে অবৈধ পার্সেল এসেছে। এখনই ৫০,০০০ টাকা জরিমানা দেন নাহলে পুলিশ কেস হবে।", "label": "scam", "language": "bn", "pattern": "fake_authority"}
+{"text": "দ্বিগুণ ইনভেস্টমেন্ট! ১০ হাজার দিলে ১ মাসে ২০ হাজার। শুধু প্রথম ৫০ জনের জন্য। আমাদের ট্রেডিং গ্রুপে যোগ দিন।", "label": "scam", "language": "bn", "pattern": "investment_doubling"}
+{"text": "আপনার ফ্রি ডেটা ১০ জিবি এক্সপায়ার হয়ে গেছে। রি-ক্লেইম করতে লিংকে ক্লিক করে নাম্বার যাচাই করুন: http://gp-free-data.xyz", "label": "scam", "language": "bn", "pattern": "phishing_link"}
+{"text": "বিকাশ থেকে বলছি, ভুলে আপনার ৫,০০০ টাকা বেশি পাঠানো হয়েছে। দয়া করে ফেরত দেন 01333444555 এই নাম্বারে।", "label": "scam", "language": "bn", "pattern": "mfs_reversal"}
+{"text": "মা, আমি অন্য নাম্বারে আছি, মোবাইলটা হারিয়ে ফেলেছি। ১০ হাজার টাকা এই বিকাশ নাম্বারে পাঠাও দ্রুত। পরে বলবো।", "label": "scam", "language": "bn", "pattern": "fake_family_emergency"}
+{"text": "আপনার লোন আবেদন প্রক্রিয়াধীন। অ্যাপ ইনস্টল করুন এবং ৩,০০০ টাকা প্রসেসিং ফি দিন। কোনো কাগজপত্র লাগবে না।", "label": "scam", "language": "bn", "pattern": "loan_app"}
+{"text": "আপনার কম্পিউটার ভাইরাসে আক্রান্ত। মাইক্রোসফট টেকনিক্যাল টিম বলছি, রিমোট অ্যাকসেস দেওয়ার জন্য AnyDesk ইনস্টল করুন।", "label": "scam", "language": "bn", "pattern": "tech_support"}
+{"text": "খুব সহজে বাংলা লিখতে শিখতে চাইলে আজই ভর্তি হন। পাসওয়ার্ড দিন ৪ অক্ষরের, ফিস ২০০ টাকা। বাংলা ফাউন্ডেশন।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "ভাই, আজ অফিসে আসবো না। জ্বর হয়েছে। মিটিংটা পিছিয়ে দিয়েছি।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "আমার পার্সেল এসেছে আজ সকালে। কুরিয়ার অফিস থেকে ফোন করেছিল। তুমি কবে আসছো?", "label": "ham", "language": "bn", "pattern": null}
+{"text": "রাতের খাবার খেয়েছ? আমি এখন বাসায় ফিরছি, ২০ মিনিটে পৌঁছে যাবো।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "ক্লাসের নোট ম্যামের কাছ থেকে নিয়ে নিও, কাল পরীক্ষা। আমি কপি করে রাখবো।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "তোমার জন্মদিনের শুভেচ্ছা! আজ রাতে সবাই মিলে ডিনার করবো, সময় বের করে নিও।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "আমার বিকাশ নাম্বার 01711223344, টাকা পাঠিয়েছ? কনফার্মেশন মেসেজটা ফরওয়ার্ড করো প্লিজ।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "দাদা, আপনাকে হাসপাতালে নিয়ে যাবো আগামীকাল সকাল ৯টায়। ডাক্তারের সিরিয়াল করিয়ে রেখেছি।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "স্কুলের ফিস জমা দিতে হবে ৫ তারিখের মধ্যে। রশিদ নিয়ে অফিসে আসবেন।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "হ্যালো স্যার, আপনার বাইক সার্ভিসিং হয়ে গেছে। আজ সন্ধ্যায় নিয়ে যেতে পারেন।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Congratulations! You have won 5,00,000 in the KBC lucky draw. Call 01712345678 now and pay only Rs 200 processing charge to claim.", "label": "scam", "language": "en", "pattern": "prize_lottery"}
+{"text": "Dear customer, your bKash account will be frozen today. Share your OTP with our officer at 01400000000 to keep it active.", "label": "scam", "language": "en", "pattern": "fake_otp_mfs"}
+{"text": "URGENT: Your KYC is expired. Update now at http://kyc-update-verify.xyz or your SIM will be deactivated within 24 hours.", "label": "scam", "language": "en", "pattern": "kyc_update"}
+{"text": "Work from home and earn $500 daily. No experience needed. Registration fee only $20. WhatsApp +91 98111 11111 to start today.", "label": "scam", "language": "en", "pattern": "fake_job"}
+{"text": "Your parcel is held at customs. Pay 250 delivery fee at http://courier-pay-secure.top to release it today.", "label": "scam", "language": "en", "pattern": "delivery_fee"}
+{"text": "This is the police cyber cell. A parcel with illegal items is in your name. Pay the fine immediately or a warrant will be issued.", "label": "scam", "language": "en", "pattern": "fake_authority"}
+{"text": "Double your money in 30 days with our AI crypto bot. Minimum deposit $100. Guaranteed 200 percent returns, limited slots.", "label": "scam", "language": "en", "pattern": "investment_doubling"}
+{"text": "Microsoft support here. Your device is infected with a virus. Install AnyDesk and give us remote access so we can clean it.", "label": "scam", "language": "en", "pattern": "tech_support"}
+{"text": "I found your number on a dating app. I feel a strong connection with you. I run a small gold trading business, I can help you invest.", "label": "scam", "language": "en", "pattern": "romance_crypto"}
+{"text": "Get an instant loan of 5 lakh with no documents. Just install the app and pay 3,000 processing fee to receive the money.", "label": "scam", "language": "en", "pattern": "loan_app"}
+{"text": "Hi, your ATM card is blocked. Click here to reactivate https://sbi-online-secure-login.tk and enter card number, CVV and PIN.", "label": "scam", "language": "en", "pattern": "phishing_link"}
+{"text": "Mom, I lost my phone, this is my new number. Please send 10,000 to this bKash number quickly, I will explain later.", "label": "scam", "language": "en", "pattern": "fake_family_emergency"}
+{"text": "Your Netflix payment failed. Update your card details within 24 hours at netflix-billing-renew.info or your account will be deleted.", "label": "scam", "language": "en", "pattern": "phishing_link"}
+{"text": "Congratulations, you are selected for the government housing scheme. Send your Aadhaar copy and 1,500 registration fee on WhatsApp.", "label": "scam", "language": "en", "pattern": "govt_scheme"}
+{"text": "Reminder from Dr. Ahmed clinic: your appointment is on Tuesday at 4 pm. Please arrive 10 minutes early.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Hi, this is Farhana from the accounts team. The invoice is attached, please review before the meeting tomorrow.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Your order has been shipped and will arrive in 2 days. Track it from the courier website with the tracking number in your account.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Hey, are we still meeting at the library at 6? I will bring the notes from last class.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Thank you for registering for the workshop. The Zoom link and schedule are on our website. See you on Saturday.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Bank statement for September is ready in your online banking app. No action is needed if you recognise all transactions.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Hi Dad, I reached the hostel safely. I will call you after dinner tonight.", "label": "ham", "language": "en", "pattern": null}
+{"text": "The electric bill of 1,240 taka was paid successfully from your account on 12 October. Thank you.", "label": "ham", "language": "en", "pattern": null}
+{"text": "पीएम किसान योजना के तहत आपको 50,000 रुपये मिले हैं। राशि प्राप्त करने के लिए इस लिंक पर क्लिक करें और अपना आधार नंबर और ओटीपी डालें।", "label": "scam", "language": "hi", "pattern": "govt_scheme"}
+{"text": "प्रिय ग्राहक, आपका बैंक खाता बंद हो जाएगा। केवाईसी अपडेट करने के लिए तुरंत इस लिंक पर क्लिक करें और ओटीपी दर्ज करें।", "label": "scam", "language": "hi", "pattern": "kyc_update"}
+{"text": "आपका बेटा दुर्घटना में घायल है, अस्पताल से बोल रहे हैं। तुरंत 25,000 रुपये इस नंबर पर भेजें।", "label": "scam", "language": "hi", "pattern": "fake_family_emergency"}
+{"text": "घर बैठे महीने के 40,000 कमाएं। कोई अनुभव जरूरी नहीं। रजिस्ट्रेशन के लिए 500 रुपये भेजें। व्हाट्सएप करें।", "label": "scam", "language": "hi", "pattern": "fake_job"}
+{"text": "बधाई हो! आपने 10 लाख का लकी ड्रॉ जीता है। पुरस्कार पाने के लिए 300 रुपये शुल्क जमा करें और ओटीपी बताएं।", "label": "scam", "language": "hi", "pattern": "prize_lottery"}
+{"text": "आपके नाम पर एक पार्सल पकड़ा गया है जिसमें अवैध सामान है। मामला दर्ज कराने से बचने के लिए 50,000 रुपये जमा करें।", "label": "scam", "language": "hi", "pattern": "fake_authority"}
+{"text": "सस्ता लोन, बिना दस्तावेज के 10 लाख तक। ऐप डाउनलोड करें और 2,000 रुपये प्रोसेसिंग फीस दें।", "label": "scam", "language": "hi", "pattern": "loan_app"}
+{"text": "क्रिप्टो में 30 दिन में पैसा डबल करें। 100 डॉलर जमा करें, 200 डॉलर वापस पाएं, निश्चित लाभ। टेलीग्राम पर संपर्क करें।", "label": "scam", "language": "hi", "pattern": "investment_doubling"}
+{"text": "आपका फोन वायरस से संक्रमित है। हम माइक्रोसॉफ्ट सपोर्ट से हैं, कृपया रिमोट एक्सेस के लिए ऐप इंस्टॉल करें।", "label": "scam", "language": "hi", "pattern": "tech_support"}
+{"text": "आपकी डिलीवरी रुकी हुई है। 150 रुपये डिलीवरी शुल्क तुरंत भेजें, फिर पार्सल भेज दिया जाएगा।", "label": "scam", "language": "hi", "pattern": "delivery_fee"}
+{"text": "नमस्ते, कल सुबह 10 बजे मीटिंग है। कृपया रिपोर्ट साथ लेकर आएं।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "बेटा, दवाई ले आना शाम को। पिताजी की तबीयत ठीक है, आज डॉक्टर को दिखाया था।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "आपका बिजली बिल 1,150 रुपये जमा हो गया है। रसीद ऐप में देख सकते हैं।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "ट्रेन 3 घंटे देरी से चल रही है। प्लेटफॉर्म नंबर पूछताछ केंद्र से पता कर लें।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "कल की क्लास रद्द है, अगले सोमवार को नई टाइम टेबल आएगी।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "आपका ऑर्डर डिलीवर हो गया है। कोई समस्या हो तो कस्टमर केयर नंबर पर कॉल करें।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "मेरा नंबर सेव कर लो। शादी की तस्वीरें भेज रहा हूँ व्हाट्सएप पर।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "مبارک ہو! آپ نے 10 لاکھ روپے کا انعام جیتا ہے۔ انعام لینے کے لیے 0300-1234567 پر کال کریں اور 500 روپے فیس بھیجیں۔", "label": "scam", "language": "ur", "pattern": "prize_lottery"}
+{"text": "محترم صارف، آپ کا بینک اکاؤنٹ بند ہو جائے گا۔ ابھی اس لنک پر کلک کریں اور اپنا شناختی نمبر اور OTP درج کریں۔", "label": "scam", "language": "ur", "pattern": "kyc_update"}
+{"text": "آپ کا بیٹا حادثے میں زخمی ہے، ہسپتال سے بات ہو رہی ہے۔ فوراً 30,000 روپے اس نمبر پر بھیجیں۔", "label": "scam", "language": "ur", "pattern": "fake_family_emergency"}
+{"text": "گھر بیٹھے ماہانہ 60,000 کمائیں۔ تجربہ ضروری نہیں۔ رجسٹریشن فیس صرف 1000 روپے۔ واٹس ایپ کریں۔", "label": "scam", "language": "ur", "pattern": "fake_job"}
+{"text": "ایزی پیسہ سے اطلاع: آپ کے اکاؤنٹ میں اضافی رقم آئی ہے، براہ کرم رقم واپس اس نمبر پر بھیجیں۔", "label": "scam", "language": "ur", "pattern": "mfs_reversal"}
+{"text": "آپ کے نام پر ایک پارسل پکڑا گیا ہے۔ کیس سے بچنے کے لیے 40,000 روپے جمع کرائیں ورنہ وارنٹ جاری ہوگا۔", "label": "scam", "language": "ur", "pattern": "fake_authority"}
+{"text": "ڈبل انویسٹمنٹ پلان: 10,000 لگائیں، ایک مہینے میں 20,000 حاصل کریں۔ پہلے 50 لوگوں کے لیے، ٹیلی گرام پر رابطہ کریں۔", "label": "scam", "language": "ur", "pattern": "investment_doubling"}
+{"text": "آپ کا موبائل وائرس سے متاثر ہے۔ ہم مائیکروسافٹ سپورٹ سے ہیں، ریموٹ رسائی کے لیے ایپ انسٹال کریں۔", "label": "scam", "language": "ur", "pattern": "tech_support"}
+{"text": "آپ کے نمبر پر سندھ بینک کی طرف سے کال آئی تھی؟ اوٹی پی کسی کو نہ بتائیں، بینک کبھی نہیں مانگتا۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "اسلام علیکم، کل صبح دس بجے میٹنگ ہے۔ رپورٹ ساتھ لے کر آئیں۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "امی، میں ہاسٹل پہنچ گیا ہوں۔ رات کو کال کروں گا۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "بجلی کا بل 2,300 روپے جمع ہو گیا ہے۔ رسید ایپ میں دیکھ سکتے ہیں۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "کل کی کلاس منسوخ ہے۔ اگلے پیر کو نیا ٹائم ٹیبل آئے گا۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "ٹرین تین گھنٹے لیٹ ہے۔ پلیٹ فارم نمبر پوچھ گچھ سے معلوم کر لیں۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "میرا نمبر محفوظ کر لیں، تصاویر واٹس ایپ پر بھیج رہا ہوں۔", "label": "ham", "language": "ur", "pattern": null}

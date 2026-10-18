@@ -1,0 +1,7 @@
+# Extra requirements for TRAINING and for the optional embedding inference backend.
+-r ../backend/requirements.txt
+pandas>=2.1
+sentence-transformers>=3.0
+torch>=2.2
+scikit-learn>=1.4
+xgboost>=2.0        # optional: adds an XGBoost row to the URL benchmark

@@ -1,0 +1,92 @@
+{"text": "Apnar bkash account somoyik bondho kora hoyeche. OTP ta 01712345678 number e pathan, nahole account bondho thakbe.", "label": "scam", "language": "bn", "pattern": "fake_otp_mfs"}
+{"text": "Ovinondon! Apni 5 lakh takar lottery jitechen. Prize pete 500 taka registration fee pathan bkash e 01999887766.", "label": "scam", "language": "bn", "pattern": "prize_lottery"}
+{"text": "Sir apnar KYC update korte hobe aajkei. Link e click kore NID number din: robi-kyc-update.tk", "label": "scam", "language": "bn", "pattern": "kyc_update"}
+{"text": "Ghore boshe mobile diye kaj, mashe 30000 taka income. Registration fee 300 taka. WhatsApp korun 01711223344.", "label": "scam", "language": "bn", "pattern": "fake_job"}
+{"text": "Apnar parcel dhaka customs e atke ache, 250 taka delivery charge pathale chhere debe.", "label": "scam", "language": "bn", "pattern": "delivery_fee"}
+{"text": "Ami police cyber cell theke bolchi. Apnar name e illegal parcel ache. 50000 taka jurimana din nahole warrant hobe.", "label": "scam", "language": "bn", "pattern": "fake_authority"}
+{"text": "Ami UK theke bolchi, apnar biye korte chai. Kintu passport ar visa fee 15000 taka apnake dite hobe age.", "label": "scam", "language": "bn", "pattern": "matrimonial"}
+{"text": "Bhai, ami tomar purano bondhu, new number nilam. 10000 taka bikash kore de, kal ferot debo.", "label": "scam", "language": "bn", "pattern": "fake_family_emergency"}
+{"text": "Crypto trading e 10 hajar invest korle 1 mas e 20 hajar. 100% guarantee, refer korle extra bonus.", "label": "scam", "language": "bn", "pattern": "investment_doubling"}
+{"text": "Apnar grammene phone number verify korte hobe. Screen share app install korun, ami tech team theke bolchi.", "label": "scam", "language": "bn", "pattern": "remote_access_screen_share"}
+{"text": "Apnar nak er porjonto OTP eseche? Ami bkash theke bolchi, ota amake bolun verify korar jonno.", "label": "scam", "language": "bn", "pattern": "fake_otp_mfs"}
+{"text": "Ami apnar chobi peye gechi, 20000 taka na dile sobai ke pathiye debo.", "label": "scam", "language": "bn", "pattern": "sextortion"}
+{"text": "FB account hack hoyeche mone hoy, password change korte ei link e jaan.", "label": "scam", "language": "bn", "pattern": "phishing_link"}
+{"text": "Ami hospital theke bolchi, apnar chele accident korche. 25000 taka pathan ei number e druto.", "label": "scam", "language": "bn", "pattern": "fake_family_emergency"}
+{"text": "Amra taposhechi online data entry karjokorta. Ghore boshe kaj, kono experience lagbe na. Age 500 taka security deposit din.", "label": "scam", "language": "bn", "pattern": "fake_job"}
+{"text": "Apnar Rocket account e bhul kore 3000 taka eshe geche, oi taka ta 01333444555 number e ferot din.", "label": "scam", "language": "bn", "pattern": "mfs_reversal"}
+{"text": "Free internet offer! 20GB data free pete link e click korun ar phone number din.", "label": "scam", "language": "bn", "pattern": "phishing_link"}
+{"text": "Telegram e video like korle 500 taka dibo. Prothome 1000 taka deposit korun VIP task er jonno.", "label": "scam", "language": "bn", "pattern": "task_scam"}
+{"text": "Bhai aj bus e kolkata jacchi, 3 ghonta lagbe. Tumi wait koro, pouchhe call diye debo.", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Ami bank theke bolchi, apnar account e sonshoyojonok transaction dekha geche. OTP ta bolun confirm korar jonno.", "label": "scam", "language": "bn", "pattern": "fake_otp_mfs"}
+{"text": "Apnar chele ke job porate pari, salary 50000. Sudhu 2000 taka advance lagbe file processing er jonno.", "label": "scam", "language": "bn", "pattern": "fake_job"}
+{"text": "Apnar electricity bill 15 diner modhye na dile connection kat jabe. Ei link theke pay korun.", "label": "scam", "language": "bn", "pattern": "utility_disconnection"}
+{"text": "Maa ami hostel e bhlo achi. Rati kheye niyo, kal phone korbo.", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Aapka bank account block ho gaya hai. KYC update karo is link par jaldi: http://hdfcbank-kyc-verify.cf", "label": "scam", "language": "hi", "pattern": "kyc_update"}
+{"text": "Badhai ho! Aapne 25 lakh ki lottery jeeti hai. Prize lene ke liye 999 rupaye bhejein aur OTP batayein.", "label": "scam", "language": "hi", "pattern": "prize_lottery"}
+{"text": "Ghar baithe kaam karo, roz 3000 rupaye kamao. Registration ke liye 500 rupaye WhatsApp par bhejein.", "label": "scam", "language": "hi", "pattern": "fake_job"}
+{"text": "Aapka beta hospital me hai, accident hua hai. Turant 30000 rupaye is number par bhejein, warna operation nahi hoga.", "label": "scam", "language": "hi", "pattern": "fake_family_emergency"}
+{"text": "HDFC se bol rahe hain, aapka card block ho gaya. Screen share app install karo aur OTP bata do.", "label": "scam", "language": "hi", "pattern": "remote_access_screen_share"}
+{"text": "Crypto me paisa doge to 1 mahine me double kar denge, guaranteed return. Telegram group join karo.", "label": "scam", "language": "hi", "pattern": "investment_doubling"}
+{"text": "Aapki nigrani me FIR darj hai, cyber cell se bol rahe hain. 20000 rupaye fine bharo warna arrest hoga.", "label": "scam", "language": "hi", "pattern": "fake_authority"}
+{"text": "YouTube video like karke roz 2000 kamayein, pehle 1000 rupaye deposit karein VIP task ke liye.", "label": "scam", "language": "hi", "pattern": "task_scam"}
+{"text": "Aapke gaon me sarkari yojana ka labh aa gaya hai, 1 lakh milega. Registration fee 800 rupaye bhejein Aadhaar ke saath.", "label": "scam", "language": "hi", "pattern": "govt_scheme"}
+{"text": "Aapka parcel courier me atka hai, 150 rupaye delivery charge bhejein to aaj hi de dete hain.", "label": "scam", "language": "hi", "pattern": "delivery_fee"}
+{"text": "Meri shaadi ka proposal hai, mujhe Dubai me settled ladka chahiye. Aap visa ke 50000 rupaye bhejo, baad me sab wapas milega.", "label": "scam", "language": "hi", "pattern": "matrimonial"}
+{"text": "Aapke phone me virus hai, Microsoft se bol rahe hain. AnyDesk install karo remote access ke liye.", "label": "scam", "language": "hi", "pattern": "tech_support"}
+{"text": "Turant loan, bina document, 2 lakh tak. 3000 rupaye processing fee bhejein app install karke.", "label": "scam", "language": "hi", "pattern": "loan_app"}
+{"text": "Bijli ka bill 500 rupaye pending hai, aaj raat connection cut ho jayega. Is link par payment karein.", "label": "scam", "language": "hi", "pattern": "utility_disconnection"}
+{"text": "Aapka UPI requests aaya hai, paisa receive karne ke liye PIN daalein.", "label": "scam", "language": "hi", "pattern": "refund_otp_theft"}
+{"text": "Bhai kal 5 baje milte hain market ke paas, notes leke aana.", "label": "ham", "language": "hi", "pattern": null}
+{"text": "Aapki beti ki shaadi ke liye hum madad karenge, koi shulk nahi. Sirf 1500 registration.", "label": "scam", "language": "hi", "pattern": "matrimonial"}
+{"text": "WhatsApp band ho jayega, code bhejna zaroori hai verify karne ke liye.", "label": "scam", "language": "hi", "pattern": "whatsapp_otp_takeover"}
+{"text": "Mummy aaj raat khana ghar par hi bana rahi hoon, aap aa jao 8 baje.", "label": "ham", "language": "hi", "pattern": null}
+{"text": "Aapka bayo bhai ke naam se parcel aaya hai jisme drugs hain, CBI hai. 1 lakh settlement ke liye bhejein digital arrest se bachne ke liye.", "label": "scam", "language": "hi", "pattern": "fake_authority"}
+{"text": "Aapke number par easypaisa se call aya tha? OTP kisi ko na dein, bank kabhi nahi mangta.", "label": "ham", "language": "ur", "pattern": null}
+{"text": "Aap ne 10 lakh ka inaam jeeta hai. Inaam lene ke liye 1000 rupay bhejein aur apna CNIC number bhejein.", "label": "scam", "language": "ur", "pattern": "prize_lottery"}
+{"text": "Aapka bank account band hone wala hai, abhi is link par click kar ke CNIC aur OTP daalein.", "label": "scam", "language": "ur", "pattern": "kyc_update"}
+{"text": "Ghar baithe mahana 60000 kamayein, tajurba zaroori nahi. Registration fee 1000 rupay WhatsApp karein.", "label": "scam", "language": "ur", "pattern": "fake_job"}
+{"text": "Aapke bete ka accident ho gaya hai, hospital se baat ho rahi hai. Foran 30000 rupay is number par bhejein.", "label": "scam", "language": "ur", "pattern": "fake_family_emergency"}
+{"text": "Jazz se bol rahe hain, aap ka number band ho jayega. Screen sharing app install karein aur code bata dein.", "label": "scam", "language": "ur", "pattern": "remote_access_screen_share"}
+{"text": "30 din mein paisa double karein, guaranteed munafa. Sirf 10,000 lagayein, referral bonus bhi milega.", "label": "scam", "language": "ur", "pattern": "investment_doubling"}
+{"text": "Aap ke naam par illegal parcel pakra gaya hai, customs se bol rahe hain. 40000 rupay jama karwaein warna warrant.", "label": "scam", "language": "ur", "pattern": "fake_authority"}
+{"text": "YouTube video like kar ke rozana 2000 kamayein, pehle 1000 rupay deposit karein.", "label": "scam", "language": "ur", "pattern": "task_scam"}
+{"text": "Aap ka parcel ruk gaya hai, 250 rupay delivery fee bhejein to aaj hi bhej dein ge.", "label": "scam", "language": "ur", "pattern": "delivery_fee"}
+{"text": "Aap ki tasveer matrimonial site par dekhi, pasand aayi. Rishta pakka karne ke liye 15000 rupay advance bhejein.", "label": "scam", "language": "ur", "pattern": "matrimonial"}
+{"text": "Aap ke computer mein virus hai, Microsoft support se hain. Remote access ke liye app install karein.", "label": "scam", "language": "ur", "pattern": "tech_support"}
+{"text": "Fauri loan bina kaghazat, 5 lakh tak. 3000 rupay processing fee app install kar ke bhejein.", "label": "scam", "language": "ur", "pattern": "loan_app"}
+{"text": "Bijli ka bill pending hai, aaj raat connection kat jayega. Is link par payment karein.", "label": "scam", "language": "ur", "pattern": "utility_disconnection"}
+{"text": "Aap ka Easypaisa account mein extra raqam aa gayi hai, wapas is number par bhejein.", "label": "scam", "language": "ur", "pattern": "mfs_reversal"}
+{"text": "WhatsApp hack ho jayega, 6 digit code bhejein verification ke liye.", "label": "scam", "language": "ur", "pattern": "whatsapp_otp_takeover"}
+{"text": "Ammi, main hostel pahunch gaya hoon. Raat ko call karunga, fikr na karein.", "label": "ham", "language": "ur", "pattern": null}
+{"text": "Aap ke beti ki shaadi ka proposal hai, hum Dubai se hain. Visa fees 50000 rupay advance bhejein.", "label": "scam", "language": "ur", "pattern": "matrimonial"}
+{"text": "Doctor sahab ne kaha hai ki dawai roz subah leni hai, shaam ko BP check karna.", "label": "ham", "language": "ur", "pattern": null}
+{"text": "Aap ne 50,000 ka inaam jeeta, sirf 200 rupay tax bhejein aur account number dein.", "label": "scam", "language": "ur", "pattern": "prize_lottery"}
+{"text": "Apnar name e parcel eseche Bangladesh customs e, illegal jinish ache. 50000 taka lagbe case sesh korte.", "label": "scam", "language": "bn", "pattern": "fake_authority"}
+{"text": "Apnar chele mobile hariye feleche, ei notun number theke bolchi. Bikash e 8000 taka pathan druto.", "label": "scam", "language": "bn", "pattern": "fake_family_emergency"}
+{"text": "Government er free ration card pete 300 taka registration fee lagbe, aajkei last date.", "label": "scam", "language": "bn", "pattern": "govt_scheme"}
+{"text": "Apnar bhai amake bolse apnar number dite, ami apnar purono bondhur meye. Ami ekta business kori, apni invest korle onek lab hobe.", "label": "scam", "language": "bn", "pattern": "romance_crypto"}
+{"text": "Ami apner WhatsApp group e add hote chai, admin ke 500 taka pathate hobe.", "label": "scam", "language": "bn", "pattern": "task_scam"}
+{"text": "Assignment ta aj rate 11 tar age pathiye din, kal submission.", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Kal office e 10 tar meeting, apni shomoy moto ashen.", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Apnar mobile bill 850 taka, due date 25 tarikh. Baki 400 taka porer mash e jabe.", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Doctor apnar report dekhe bolchen sugar normal ache, medicine cholte thakbe.", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Tumi ki amake chino? Ami tomar college er senior. Ami ekta part time job er babostha korte pari, monthly 25000, khub sohoj kaj.", "label": "scam", "language": "bn", "pattern": "fake_job"}
+{"text": "Aap ke number ko lucky draw me select kiya gaya hai, prize lene ke liye 300 rupay aur bank details bhejein.", "label": "scam", "language": "hi", "pattern": "prize_lottery"}
+{"text": "Hum ek NGO hain jo garib parivaron ko bina byaj loan dete hain, sirf 1000 rupaye file charge.", "label": "scam", "language": "hi", "pattern": "loan_app"}
+{"text": "Aap ke naam par ek mahila ne complaint ki hai, police station se bol rahe hain. 20000 de do warna FIR.", "label": "scam", "language": "hi", "pattern": "fake_authority"}
+{"text": "Aapki photo se mujhe pyar ho gaya hai, main USA me rehta hoon. Mera parcel aap ke naam par aayega, 25000 customs fee bhar dein.", "label": "scam", "language": "hi", "pattern": "romance_crypto"}
+{"text": "Dwarka se ek parcel aya hai, us me 3 lakh cash hai. Us cash ko hum aap ke account me daal denge, aap 10 percent commission rakhein.", "label": "scam", "language": "hi", "pattern": "advance_fee_fraud"}
+{"text": "Bhai apni gaadi ki servicing karwa lo, brake theek nahi lag raha.", "label": "ham", "language": "hi", "pattern": null}
+{"text": "Kal se college ki chhutti hai, Monday ko class hogi.", "label": "ham", "language": "hi", "pattern": null}
+{"text": "Barish ho rahi hai, chhata leke jao bahar.", "label": "ham", "language": "hi", "pattern": null}
+{"text": "Aapke bete ko job dilwa denge foreign company me, salary 3 lakh. Sirf 10000 rupay file charge.", "label": "scam", "language": "ur", "pattern": "fake_job"}
+{"text": "Kal subah se gas band rahegi, 4 baje ke baad aayegi.", "label": "ham", "language": "ur", "pattern": null}
+{"text": "School ki fees 10 tarikh tak jama karani hai, receipt leke ana.", "label": "ham", "language": "ur", "pattern": null}
+{"text": "Hum aap ke ghar par kal 5 baje aa jayenge rishta dekhne, chai banana.", "label": "ham", "language": "ur", "pattern": null}
+{"text": "Friend, this is your cousin's new number. I lost my phone. Please bKash 5000 to 01712233445 quickly, I'll explain later.", "label": "scam", "language": "en", "pattern": "fake_family_emergency"}
+{"text": "Dear customer, your account has been temporarily suspended due to unusual activity. Verify at http://secure-account-verify.info in 24 hours.", "label": "scam", "language": "en", "pattern": "phishing_link"}
+{"text": "I am a doctor working abroad and looking for a life partner. I need help with a transfer of my savings, I will share 30 percent with you.", "label": "scam", "language": "en", "pattern": "advance_fee_fraud"}
+{"text": "Your debit card is used for a 42,000 purchase. If this was not you, call our helpline number given in the app. Do not share OTP with anyone.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Please be aware: staff will never call you asking for OTP or password. Report suspicious calls to 16247.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Referral offer: invite 3 friends to our app and both of you get 100 taka cashback credited automatically. No payment needed.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Your flight PNR 4X7K2L is confirmed for 22 Nov, Dhaka to Jeddah. Web check-in opens 48 hours before departure.", "label": "ham", "language": "en", "pattern": null}

@@ -1,0 +1,814 @@
+{
+  "generated_at": "2026-10-16T19:34:27.942668+00:00",
+  "dataset": {
+    "name": "ScamLens mixed corpus (UCI SMS Spam + SpamAssassin + ScamLens multilingual synthetic)",
+    "card": "data/processed/DATASET_CARD.md",
+    "train_rows": 5859,
+    "validation_rows": 1252,
+    "test_rows": 1252,
+    "test_positive_rate": 0.1542,
+    "languages": {
+      "en": 1228,
+      "hi": 10,
+      "bn": 9,
+      "ur": 5
+    },
+    "sources": {
+      "uci_sms_spam": 770,
+      "spamassassin_ham": 375,
+      "spamassassin_spam": 75,
+      "scamlens_synthetic": 32
+    }
+  },
+  "models": {
+    "ml_tfidf": {
+      "threshold": 0.325,
+      "precision": 0.9548,
+      "recall": 0.9845,
+      "f1": 0.9694,
+      "accuracy": 0.9904,
+      "roc_auc": 0.9979,
+      "pr_auc": 0.9949,
+      "confusion_matrix": [
+        [
+          1050,
+          9
+        ],
+        [
+          3,
+          190
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.0009,
+          0.0009,
+          0.0019,
+          0.0019,
+          0.0028,
+          0.0028,
+          0.0047,
+          0.0047,
+          0.0132,
+          0.0132,
+          0.0142,
+          0.0142,
+          0.3437,
+          0.3437,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.0052,
+          0.8756,
+          0.8756,
+          0.9378,
+          0.9378,
+          0.9689,
+          0.9689,
+          0.9741,
+          0.9741,
+          0.9845,
+          0.9845,
+          0.9896,
+          0.9896,
+          0.9948,
+          0.9948,
+          1.0,
+          1.0
+        ]
+      },
+      "n": 1252,
+      "per_language": {
+        "en": {
+          "precision": 0.9613,
+          "recall": 0.9886,
+          "f1": 0.9748,
+          "roc_auc": 0.9979,
+          "n": 1228,
+          "confusion_matrix": [
+            [
+              1045,
+              7
+            ],
+            [
+              2,
+              174
+            ]
+          ]
+        },
+        "hi": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "roc_auc": 0.9524,
+          "n": 10,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        },
+        "bn+hi+ur (pooled)": {
+          "precision": 0.8889,
+          "recall": 0.9412,
+          "f1": 0.9143,
+          "roc_auc": 0.9748,
+          "n": 24,
+          "confusion_matrix": [
+            [
+              5,
+              2
+            ],
+            [
+              1,
+              16
+            ]
+          ]
+        }
+      },
+      "validation_threshold": 0.325
+    },
+    "ml_embedding": {
+      "threshold": 0.6,
+      "precision": 0.9389,
+      "recall": 0.8756,
+      "f1": 0.9062,
+      "accuracy": 0.972,
+      "roc_auc": 0.9941,
+      "pr_auc": 0.9708,
+      "confusion_matrix": [
+        [
+          1048,
+          11
+        ],
+        [
+          24,
+          169
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.0009,
+          0.0009,
+          0.0019,
+          0.0019,
+          0.0028,
+          0.0028,
+          0.0038,
+          0.0038,
+          0.0076,
+          0.0076,
+          0.0085,
+          0.0085,
+          0.0104,
+          0.0104,
+          0.0161,
+          0.0161,
+          0.0179,
+          0.0179,
+          0.0189,
+          0.0189,
+          0.0198,
+          0.0198,
+          0.0217,
+          0.0217,
+          0.0246,
+          0.0246,
+          0.0255,
+          0.0255,
+          0.0321,
+          0.0321,
+          0.0368,
+          0.0368,
+          0.0434,
+          0.0434,
+          0.0463,
+          0.0463,
+          0.051,
+          0.051,
+          0.0519,
+          0.0519,
+          0.0623,
+          0.0623,
+          0.1454,
+          0.1454,
+          0.1473,
+          0.1473,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.0052,
+          0.3212,
+          0.3212,
+          0.7202,
+          0.7202,
+          0.7358,
+          0.7358,
+          0.8135,
+          0.8135,
+          0.8549,
+          0.8549,
+          0.8653,
+          0.8653,
+          0.8756,
+          0.8756,
+          0.8808,
+          0.8808,
+          0.8912,
+          0.8912,
+          0.8964,
+          0.8964,
+          0.9016,
+          0.9016,
+          0.9067,
+          0.9067,
+          0.9119,
+          0.9119,
+          0.9326,
+          0.9326,
+          0.943,
+          0.943,
+          0.9534,
+          0.9534,
+          0.9585,
+          0.9585,
+          0.9689,
+          0.9689,
+          0.9741,
+          0.9741,
+          0.9793,
+          0.9793,
+          0.9845,
+          0.9845,
+          0.9896,
+          0.9896,
+          0.9948,
+          0.9948,
+          1.0,
+          1.0
+        ]
+      },
+      "n": 1252,
+      "per_language": {
+        "en": {
+          "precision": 0.9333,
+          "recall": 0.875,
+          "f1": 0.9032,
+          "roc_auc": 0.9948,
+          "n": 1228,
+          "confusion_matrix": [
+            [
+              1041,
+              11
+            ],
+            [
+              22,
+              154
+            ]
+          ]
+        },
+        "hi": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "roc_auc": 1.0,
+          "n": 10,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        },
+        "bn+hi+ur (pooled)": {
+          "precision": 1.0,
+          "recall": 0.8824,
+          "f1": 0.9375,
+          "roc_auc": 0.9832,
+          "n": 24,
+          "confusion_matrix": [
+            [
+              7,
+              0
+            ],
+            [
+              2,
+              15
+            ]
+          ]
+        }
+      },
+      "validation_threshold": 0.6
+    },
+    "ensemble": {
+      "threshold": 0.625,
+      "precision": 0.9944,
+      "recall": 0.9171,
+      "f1": 0.9542,
+      "accuracy": 0.9864,
+      "roc_auc": 0.9973,
+      "pr_auc": 0.9948,
+      "confusion_matrix": [
+        [
+          1058,
+          1
+        ],
+        [
+          16,
+          177
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.0009,
+          0.0009,
+          0.0019,
+          0.0019,
+          0.0038,
+          0.0038,
+          0.0057,
+          0.0057,
+          0.0094,
+          0.0094,
+          0.0132,
+          0.0132,
+          0.4665,
+          0.4665,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.0052,
+          0.8964,
+          0.8964,
+          0.9534,
+          0.9534,
+          0.9689,
+          0.9689,
+          0.9741,
+          0.9741,
+          0.9845,
+          0.9845,
+          0.9896,
+          0.9896,
+          0.9948,
+          0.9948,
+          1.0,
+          1.0
+        ]
+      },
+      "n": 1252,
+      "per_language": {
+        "en": {
+          "precision": 0.9939,
+          "recall": 0.9261,
+          "f1": 0.9588,
+          "roc_auc": 0.9972,
+          "n": 1228,
+          "confusion_matrix": [
+            [
+              1051,
+              1
+            ],
+            [
+              13,
+              163
+            ]
+          ]
+        },
+        "hi": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "roc_auc": 1.0,
+          "n": 10,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        },
+        "bn+hi+ur (pooled)": {
+          "precision": 1.0,
+          "recall": 0.8235,
+          "f1": 0.9032,
+          "roc_auc": 0.9832,
+          "n": 24,
+          "confusion_matrix": [
+            [
+              7,
+              0
+            ],
+            [
+              3,
+              14
+            ]
+          ]
+        }
+      },
+      "weights": {
+        "ml": 0.6499999999999999,
+        "pattern": 0.2,
+        "url": 5.551115123125783e-17,
+        "llm": 0.15
+      },
+      "thresholds": {
+        "suspicious": 0.281,
+        "scam": 0.625
+      }
+    },
+    "ml_only": {
+      "threshold": 0.325,
+      "precision": 0.9548,
+      "recall": 0.9845,
+      "f1": 0.9694,
+      "accuracy": 0.9904,
+      "roc_auc": 0.9979,
+      "pr_auc": 0.9949,
+      "confusion_matrix": [
+        [
+          1050,
+          9
+        ],
+        [
+          3,
+          190
+        ]
+      ],
+      "roc_curve": {
+        "fpr": [
+          0.0,
+          0.0,
+          0.0,
+          0.0009,
+          0.0009,
+          0.0019,
+          0.0019,
+          0.0028,
+          0.0028,
+          0.0047,
+          0.0047,
+          0.0132,
+          0.0132,
+          0.0142,
+          0.0142,
+          0.3437,
+          0.3437,
+          1.0
+        ],
+        "tpr": [
+          0.0,
+          0.0052,
+          0.8756,
+          0.8756,
+          0.9378,
+          0.9378,
+          0.9689,
+          0.9689,
+          0.9741,
+          0.9741,
+          0.9845,
+          0.9845,
+          0.9896,
+          0.9896,
+          0.9948,
+          0.9948,
+          1.0,
+          1.0
+        ]
+      },
+      "n": 1252,
+      "per_language": {
+        "en": {
+          "precision": 0.9613,
+          "recall": 0.9886,
+          "f1": 0.9748,
+          "roc_auc": 0.9979,
+          "n": 1228,
+          "confusion_matrix": [
+            [
+              1045,
+              7
+            ],
+            [
+              2,
+              174
+            ]
+          ]
+        },
+        "hi": {
+          "precision": 1.0,
+          "recall": 0.8571,
+          "f1": 0.9231,
+          "roc_auc": 0.9524,
+          "n": 10,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              6
+            ]
+          ]
+        },
+        "bn+hi+ur (pooled)": {
+          "precision": 0.8889,
+          "recall": 0.9412,
+          "f1": 0.9143,
+          "roc_auc": 0.9748,
+          "n": 24,
+          "confusion_matrix": [
+            [
+              5,
+              2
+            ],
+            [
+              1,
+              16
+            ]
+          ]
+        }
+      },
+      "validation_threshold": 0.325,
+      "label": "TF-IDF (word+char) + calibrated logistic regression"
+    }
+  },
+  "llm_only": null,
+  "url_model": {
+    "generated_at": "2026-10-16T19:19:04.123568+00:00",
+    "chosen_model": "logreg_calibrated",
+    "feature_order_version": "1.0.0",
+    "n_features": 32,
+    "dataset": {
+      "name": "PhiUSIIL Phishing URL Dataset (UCI #967)",
+      "license": "CC BY 4.0",
+      "train": 42000,
+      "validation": 9000,
+      "test": 9000
+    },
+    "models": {
+      "logreg_calibrated": {
+        "validation_threshold": 0.24,
+        "validation_f1": 0.9946,
+        "precision": 0.9973,
+        "recall": 0.9901,
+        "f1": 0.9937,
+        "accuracy": 0.9938,
+        "roc_auc": 0.9977,
+        "pr_auc": 0.9985,
+        "confusion_matrix": [
+          [
+            4550,
+            12
+          ],
+          [
+            44,
+            4394
+          ]
+        ],
+        "roc_curve": {
+          "fpr": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0009,
+            0.018,
+            0.0447,
+            0.0818,
+            0.1188,
+            0.1451,
+            0.1705,
+            0.1914,
+            0.2113,
+            0.2286,
+            0.244,
+            0.2639,
+            0.2836,
+            0.3082,
+            0.3295,
+            0.349,
+            0.3702,
+            0.3935,
+            0.4176,
+            0.4421,
+            0.4682,
+            0.4941,
+            0.5248,
+            0.5548,
+            0.5708,
+            0.5903,
+            0.6291,
+            0.6613,
+            0.6859,
+            0.7126,
+            0.737,
+            0.767,
+            0.8023,
+            0.8409,
+            0.8711,
+            0.8943,
+            0.9202,
+            0.9452,
+            0.9669,
+            1.0
+          ],
+          "tpr": [
+            0.0,
+            0.0976,
+            0.137,
+            0.2093,
+            0.2981,
+            0.3574,
+            0.4351,
+            0.4973,
+            0.5293,
+            0.5759,
+            0.6503,
+            0.7188,
+            0.7434,
+            0.772,
+            0.7977,
+            0.8202,
+            0.8441,
+            0.87,
+            0.8993,
+            0.9493,
+            0.9896,
+            0.9928,
+            0.9953,
+            0.9959,
+            0.9964,
+            0.9966,
+            0.9966,
+            0.9968,
+            0.9968,
+            0.9971,
+            0.9971,
+            0.9971,
+            0.9971,
+            0.9973,
+            0.9973,
+            0.9975,
+            0.9975,
+            0.9975,
+            0.9975,
+            0.9975,
+            0.9977,
+            0.9977,
+            0.9977,
+            0.9977,
+            0.9977,
+            0.9982,
+            0.9984,
+            0.9986,
+            0.9986,
+            0.9986,
+            0.9989,
+            0.9989,
+            0.9989,
+            0.9989,
+            0.9989,
+            0.9991,
+            0.9993,
+            0.9993,
+            0.9995,
+            1.0
+          ]
+        },
+        "test_size": 9000,
+        "positive_rate": 0.4931
+      }
+    }
+  },
+  "ensemble_weights": {
+    "ml": 0.6499999999999999,
+    "pattern": 0.2,
+    "url": 5.551115123125783e-17,
+    "llm": 0.15
+  },
+  "ensemble_thresholds": {
+    "suspicious": 0.281,
+    "scam": 0.625
+  },
+  "limitations": [
+    "The test set is real-world imbalanced (about 15% scam), so F1 looks modest compared with balanced toy benchmarks. That is deliberate: it matches what a user actually receives.",
+    "The SCAM threshold is floored at 0.55 (a false alarm is costly for the elderly users this app serves). That constraint lowers F1 slightly versus an unconstrained search — the cost is printed by the training script instead of hidden.",
+    "TF-IDF beat the multilingual MiniLM embeddings on this corpus (short SMS-style text favours character n-grams, and the non-English training data is small). The embedding backend is still trained, published in the comparison table and selectable with TEXT_MODEL_BACKEND=embedding, but the default is the empirically better scorer — not the more fashionable one.",
+    "Bangla, Hindi and Urdu coverage comes from 132 hand-reviewed synthetic rows; per-language metrics are shown separately because they are weaker than English. Treat non-English scores as indicative.",
+    "The synthetic multilingual set was authored by the ScamLens team and is an imitation of documented fraud typologies — it is not intercepted real fraud traffic.",
+    "The classifier recognises patterns present in its training data; novel scam wording, images and voice-only attacks can evade it. This is why the product shows a confidence value, explains the evidence, and never acts on the user's behalf.",
+    "ScamLens flags fraud, not marketing. Legitimate bulk SMS is labelled legitimate, so some aggressive but legal promotions may still score in the SUSPICIOUS band."
+  ],
+  "notes": "ML-only = production text classifier. Ensemble = calibrated weighted mix of the ML score, the URL risk score and the pattern-library score, with a prior weight reserved for the LLM judgement. Weights and thresholds are tuned on the validation split only; the test split is scored once. Run ml/eval_llm.py with an API key to fill in the LLM-only column on the same test split.",
+  "shipped_pipeline_eval": {
+    "override_effect": {
+      "changed_decisions": 0,
+      "rows_fixed": 0,
+      "rows_broken": 0,
+      "note": "The curated playbook override fires only on high-severity, multi-keyword matches of MFS / OTP / fake-authority playbooks. The held-out corpus (UCI SMS Spam, SpamAssassin, 1252 rows, mostly English) contains none of them, so it changes 0 decisions here: its value shows up on the Bangla / Hindi / Urdu MFS messages in the demo set and in the live app, not on this benchmark."
+    },
+    "split": "test",
+    "n": 1252,
+    "note": "Measured end-to-end by calling the shipped agent once per held-out row (PII redaction, pattern matcher, actionability check, thresholds). 'ensemble_override' is what users get; 'ensemble' is the same pipeline with the curated playbook override switched off, which is how its effect is isolated.",
+    "results": {
+      "ml_only": {
+        "precision": 0.9548,
+        "recall": 0.9845,
+        "f1": 0.9694,
+        "confusion_matrix": [
+          [
+            1050,
+            9
+          ],
+          [
+            3,
+            190
+          ]
+        ],
+        "n": 1252,
+        "roc_auc": 0.9979,
+        "decision_threshold": 0.325
+      },
+      "ensemble": {
+        "precision": 0.9891,
+        "recall": 0.943,
+        "f1": 0.9655,
+        "confusion_matrix": [
+          [
+            1057,
+            2
+          ],
+          [
+            11,
+            182
+          ]
+        ],
+        "n": 1252,
+        "roc_auc": 0.9842,
+        "decision_threshold": 0.625
+      },
+      "ensemble_override": {
+        "precision": 0.9891,
+        "recall": 0.943,
+        "f1": 0.9655,
+        "confusion_matrix": [
+          [
+            1057,
+            2
+          ],
+          [
+            11,
+            182
+          ]
+        ],
+        "n": 1252,
+        "roc_auc": 0.9842,
+        "decision_threshold": 0.625
+      }
+    }
+  }
+}

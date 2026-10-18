@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+
+/* Tailwind v4 defaults the `dark:` variant to the OS media query. ScamLens has an
+   in-app dark-mode switch, so the variant is bound to the `.dark` class instead —
+   otherwise a user on a light-OS device would get light text on light cards. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------ theme
+   Calm blue/teal base. Green/amber/red are used ONLY for verdicts, so the
+   colour carries meaning and nothing else competes with it.              */
+@theme {
+  --color-brand-50: #eff8ff;
+  --color-brand-100: #d9edff;
+  --color-brand-200: #bce0ff;
+  --color-brand-300: #8ecdff;
+  --color-brand-400: #59b0ff;
+  --color-brand-500: #338efb;
+  --color-brand-600: #1e6ff0;
+  --color-brand-700: #1a58dc;
+  --color-brand-800: #1c49b2;
+  --color-brand-900: #1c418c;
+
+  --color-teal-ink: #0f3b45;
+  --color-safe: #16a34a;
+  --color-warn: #d97706;
+  --color-danger: #dc2626;
+
+  --font-sans: 'Noto Sans Bengali', 'Noto Nastaliq Urdu', 'Noto Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --animate-gauge: gauge-fill 1.1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  --animate-rise: rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-pulse-soft: pulse-soft 2.4s ease-in-out infinite;
+}
+
+@keyframes gauge-fill {
+  from { stroke-dashoffset: var(--gauge-circumference); }
+  to { stroke-dashoffset: var(--gauge-target); }
+}
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+:root {
+  color-scheme: light;
+}
+:root.dark {
+  color-scheme: dark;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: #f7fafc;
+  color: #0f3b45;
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+.dark body { background: #071722; color: #e6f2f7; }
+
+/* Accessibility: large-font and high-contrast modes toggle these classes. */
+html.large-text { font-size: 19px; }
+html.high-contrast body { background: #000; color: #fff; }
+html.high-contrast .card { border-color: #fff !important; background: #000 !important; }
+html.high-contrast .muted { color: #fff !important; }
+
+*:focus-visible {
+  outline: 3px solid var(--color-brand-500);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2eef4;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(15, 59, 69, 0.04), 0 8px 24px -20px rgba(15, 59, 69, 0.28);
+}
+.dark .card { background: #0c2431; border-color: #17384a; }
+
+.muted { color: #557b8a; }
+.dark .muted { color: #9fc0cd; }
+
+/* Marked-up red flags inside the user's own message */
+.flag {
+  border-radius: 4px;
+  padding: 0 2px;
+  background: color-mix(in srgb, var(--flag-color) calc(var(--flag-strength) * 42%), transparent);
+  box-shadow: inset 0 -2px 0 color-mix(in srgb, var(--flag-color) 70%, transparent);
+  font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* Keep tap targets comfortable for elderly users */
+button, a, [role='button'] { min-height: 44px; }

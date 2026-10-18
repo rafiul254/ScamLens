@@ -1,0 +1,39 @@
+# secrets
+.env
+.env.local
+*.pem
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# local database / data
+backend/app/scamlens.db
+backend/app/scamlens.db-wal
+backend/app/scamlens.db-shm
+data/raw/
+data/processed/
+dist/
+
+# generated submission archive and staging copy are not part of the source repo
+submission/
+
+# training arrays are reproducible; keep the small runtime model bundles available to clones
+ml/artifacts/*.npz
+ml/artifacts/*.joblib
+!ml/artifacts/text_classifier.joblib
+!ml/artifacts/url_risk_model.joblib
+
+# os
+.DS_Store
+Thumbs.db

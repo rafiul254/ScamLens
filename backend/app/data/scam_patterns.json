@@ -1,0 +1,1840 @@
+{
+  "version": "1.0.0",
+  "provenance": "Curated by the ScamLens team from documented scam typologies that are actively reported in South Asia (BTRC/CERT-In/ NRB advisories, bKash/Nagad/Easypaisa/JazzCash customer-awareness pages, police cyber-cell public warnings, and press reporting of MFS fraud). Keyword lists are hand-written per language; no text in this file is copied from a copyrighted source.",
+  "patterns": [
+    {
+      "id": "prize_lottery",
+      "category": "greed",
+      "severity": 0.85,
+      "name": {
+        "en": "Prize / Lottery / Lucky Draw",
+        "bn": "লটারি বা পুরস্কার",
+        "hi": "लॉटरी या इनाम",
+        "ur": "انعام یا لاٹری"
+      },
+      "summary": {
+        "en": "You are told you won a prize you never entered for, then asked to pay a fee or share details to claim it.",
+        "bn": "আপনি শুনছেন লটারি জিতেছেন, অথচ আপনি অংশই নেননি—তারপর পুরস্কার পেতে ফি বা তথ্য চাওয়া হয়।",
+        "hi": "आपको बताया जाता है कि आपने लॉटरी जीती है, जबकि आपने भाग नहीं लिया—फिर इनाम के लिए फीस या जानकारी मांगी जाती है।",
+        "ur": "آپ کو بتایا جاتا ہے کہ آپ نے انعام جیتا ہے، حالانکہ آپ نے حصہ نہیں لیا—پھر فیس یا معلومات مانگی جاتی ہیں۔"
+      },
+      "keywords": {
+        "en": [
+          "bumper",
+          "claim now",
+          "claim your",
+          "congratulation",
+          "congratulations",
+          "inaam",
+          "inam",
+          "iphone",
+          "jackpot",
+          "jeeta",
+          "jitechen",
+          "kbc",
+          "lakh takar",
+          "lotari",
+          "lottery",
+          "lucky draw",
+          "lucky winner",
+          "prize",
+          "you have won",
+          "you won"
+        ],
+        "bn": [
+          "অভিনন্দন",
+          "লটারি",
+          "জিতেছেন",
+          "পুরস্কার",
+          "প্রাইজ",
+          "লাকি ড্র",
+          "কোটি",
+          "ইনাম",
+          "দাবি করুন"
+        ],
+        "hi": [
+          "बधाई",
+          "लॉटरी",
+          "जीता",
+          "इनाम",
+          "लकी ड्रॉ",
+          "पुरस्कार",
+          "दावा करें"
+        ],
+        "ur": [
+          "مبارک",
+          "انعام",
+          "لاٹری",
+          "جیتا",
+          "انعامی",
+          "لکی ڈرا"
+        ]
+      },
+      "psychology": [
+        "excitement and greed",
+        "urgency (limited time)",
+        "authority of a big brand name"
+      ],
+      "safe_response": "Do not pay any 'processing, shipping or tax' fee. Real prizes never require a payment or an OTP. Delete the message and confirm any offer only through the official app or website you type yourself.",
+      "red_flag_hints": [
+        "ask to pay a fee to receive money",
+        "you do not remember entering",
+        "deadline pressure",
+        "unknown short link"
+      ]
+    },
+    {
+      "id": "fake_otp_mfs",
+      "category": "credential_theft",
+      "severity": 1.0,
+      "name": {
+        "en": "Fake Bank / bKash-Nagad OTP Request",
+        "bn": "ভুয়া বিকাশ-নগদ ওটিপি চাওয়া",
+        "hi": "नकली बैंक / OTP मांग",
+        "ur": "جعلی بینک / او ٹی پی"
+      },
+      "summary": {
+        "en": "Someone pretending to be your bank or mobile-money service asks for your OTP, PIN or password, or says your account will be blocked.",
+        "bn": "কেউ ব্যাংক বা মোবাইল ব্যাংকিং সেবার নাম করে আপনার ওটিপি, পিন বা পাসওয়ার্ড চায়, বা বলছে একাউন্ট বন্ধ হবে।",
+        "hi": "कोई बैंक या मोबाइल बैंकिंग के नाम पर आपका ओटीपी, पिन या पासवर्ड मांगता है, या खाता बंद होने की धमकी देता है।",
+        "ur": "کوئی بینک یا موبائل بینکنگ کے نام پر آپ کا او ٹی پی، پن یا پاس ورڈ مانگتا ہے، یا اکاؤنٹ بند ہونے کی دھمکی دیتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "otp",
+          "one time password",
+          "verification code",
+          "share your pin",
+          "enter your pin",
+          "cvv",
+          "account will be blocked",
+          "account will be frozen",
+          "account suspended",
+          "bkash",
+          "nagad",
+          "rocket",
+          "easypaisa",
+          "jazzcash",
+          "upi pin",
+          "net banking password"
+        ],
+        "bn": [
+          "ওটিপি",
+          "পিন",
+          "ভেরিফিকেশন কোড",
+          "একাউন্ট বন্ধ",
+          "একাউন্ট সাময়িক",
+          "বিকাশ",
+          "নগদ",
+          "রকেট",
+          "গোপন কোড",
+          "পাসওয়ার্ড"
+        ],
+        "hi": [
+          "ओटीपी",
+          "पिन",
+          "सीवीवी",
+          "खाता बंद",
+          "वेरिफिकेशन कोड",
+          "पासवर्ड",
+          "यूपीआई"
+        ],
+        "ur": [
+          "او ٹی پی",
+          "پن",
+          "کوڈ",
+          "اکاؤنٹ بند",
+          "پاس ورڈ",
+          "ایزی پیسہ",
+          "جاز کیش"
+        ]
+      },
+      "psychology": [
+        "fear of losing money or service",
+        "authority impersonation",
+        "urgency"
+      ],
+      "safe_response": "Never share an OTP, PIN or password with anyone — not even someone who says they are from the bank. No bank or MFS agent ever asks for it. If money moved, call the official helpline (bKash 16247, Nagad 16167, Rocket 16216) and freeze the account.",
+      "red_flag_hints": [
+        "OTP/PIN requested",
+        "threat of account block",
+        "call-back number in the message",
+        "link to a look-alike domain"
+      ],
+      "weak_keywords": [
+        "bkash",
+        "nagad",
+        "rocket",
+        "easypaisa",
+        "jazzcash",
+        "mobicash",
+        "upay",
+        "paytm",
+        "phonepe",
+        "upi",
+        "gpay",
+        "বিকাশ",
+        "নগদ",
+        "রকেট",
+        "नगद",
+        "मोबाइल बैंकिंग"
+      ],
+      "weak_keywords_note": "Matched alone, these words are not evidence for this pattern (scammers and legitimate services both use them); they only count when a stronger keyword of the same pattern is present."
+    },
+    {
+      "id": "kyc_update",
+      "category": "credential_theft",
+      "severity": 0.95,
+      "name": {
+        "en": "Fake KYC / SIM Block Update",
+        "bn": "ভুয়া কেওয়াইসি আপডেট",
+        "hi": "नकली केवाईसी अपडेट",
+        "ur": "جعلی کے وائی سی اپڈیٹ"
+      },
+      "summary": {
+        "en": "A message says your KYC, SIM or wallet is expiring today and you must click a link and re-submit your ID to avoid disconnection.",
+        "bn": "মেসেজে বলা হয় আজই কেওয়াইসি/SIM শেষ, লিংকে ক্লিক করে আইডি আবার জমা না দিলে সংযোগ বন্ধ।",
+        "hi": "संदेश कहता है कि आज ही केवाईसी/SIM खत्म हो रहा है, लिंक पर क्लिक कर आईडी जमा करें वरना कनेक्शन बंद।",
+        "ur": "پیغام کہتا ہے کہ آج ہی کے وائی سی/سم ختم ہو رہا ہے، لنک پر کلک کر کے شناختی کارڈ جمع کرائیں ورنہ کنکشن بند۔"
+      },
+      "keywords": {
+        "en": [
+          "aadhaar",
+          "cnic",
+          "deactivated today",
+          "know your customer",
+          "kyc",
+          "kyc-update",
+          "nid",
+          "number band",
+          "re-verification",
+          "reverification",
+          "sim band",
+          "sim blocked",
+          "sim will be blocked",
+          "trai",
+          "update",
+          "update kyc",
+          "verification"
+        ],
+        "bn": [
+          "কেওয়াইসি",
+          "কিওয়াইসি",
+          "সিম বন্ধ",
+          "নাম্বার বন্ধ",
+          "এনআইডি",
+          "আইডি কার্ড",
+          "ভেরিফিকেশন",
+          "আপডেট করুন"
+        ],
+        "hi": [
+          "केवाईसी",
+          "सिम बंद",
+          "आधार",
+          "वेरिफिकेशन",
+          "अपडेट करें",
+          "नंबर बंद"
+        ],
+        "ur": [
+          "کے وائی سی",
+          "سم بند",
+          "شناختی کارڈ",
+          "تصدیق",
+          "اپڈیٹ"
+        ]
+      },
+      "psychology": [
+        "time pressure",
+        "fear of losing phone number",
+        "official-looking language"
+      ],
+      "safe_response": "Operators never collect KYC through an SMS link. Open the operator's own app or visit a service centre with your ID. Report the link to your operator and delete it.",
+      "red_flag_hints": [
+        "deadline within hours",
+        "link to a non-operator domain",
+        "asks for full ID number"
+      ],
+      "official_channels": {
+        "operator": "Toll-free operator care, or visit a service centre in person"
+      },
+      "weak_keywords": [
+        "nid",
+        "আইডি কার্ড",
+        "आधार",
+        "شناختی کارڈ"
+      ],
+      "weak_keywords_note": "Matched alone, these words are not evidence for this pattern (scammers and legitimate services both use them); they only count when a stronger keyword of the same pattern is present."
+    },
+    {
+      "id": "fake_job",
+      "category": "advance_fee",
+      "severity": 0.85,
+      "name": {
+        "en": "Fake Job / Work-From-Home Fee",
+        "bn": "ভুয়া চাকরি / রেজিস্ট্রেশন ফি",
+        "hi": "नकली नौकरी / रजिस्ट्रेशन फीस",
+        "ur": "جعلی نوکری / رجسٹریشن فیس"
+      },
+      "summary": {
+        "en": "A recruiter offers easy money for simple work and then asks for a registration, training or security fee before you start.",
+        "bn": "সহজ কাজে মোটা টাকার প্রস্তাব, কিন্তু শুরু করার আগেই রেজিস্ট্রেশন/ট্রেনিং ফি চাওয়া হয়।",
+        "hi": "आसान काम के लिए मोटी कमाई का वादा, लेकिन शुरू करने से पहले रजिस्ट्रेशन या ट्रेनिंग फीस मांगी जाती है।",
+        "ur": "آسان کام کے لیے موٹی کمائی کا وعدہ، لیکن شروع کرنے سے پہلے رجسٹریشن یا ٹریننگ فیس مانگی جاتی ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "daily income",
+          "data entry",
+          "earn daily",
+          "hiring",
+          "home based",
+          "income",
+          "job",
+          "joining fee",
+          "kaam",
+          "kaj",
+          "kam",
+          "kamai",
+          "naukri",
+          "no experience needed",
+          "part time",
+          "part time job",
+          "registration",
+          "registration fee",
+          "salary",
+          "security deposit",
+          "typing job",
+          "work from home"
+        ],
+        "bn": [
+          "ঘরে বসে",
+          "বাসায় বসে",
+          "পার্ট টাইম",
+          "ইনকাম",
+          "রেজিস্ট্রেশন ফি",
+          "অভিজ্ঞতা লাগবে না",
+          "চাকরি",
+          "কাজ",
+          "নিয়োগ"
+        ],
+        "hi": [
+          "घर बैठे",
+          "पार्ट टाइम",
+          "कमाई",
+          "रजिस्ट्रेशन फीस",
+          "अनुभव जरूरी नहीं",
+          "नौकरी",
+          "भर्ती"
+        ],
+        "ur": [
+          "گھر بیٹھے",
+          "پارٹ ٹائم",
+          "کمائی",
+          "رجسٹریشن فیس",
+          "تجربہ ضروری نہیں",
+          "نوکری",
+          "بھرتی"
+        ]
+      },
+      "psychology": [
+        "unrealistic income promise",
+        "no interview or effort",
+        "small up-front fee feels harmless"
+      ],
+      "safe_response": "A genuine employer never asks you to pay to get work. Do not pay any fee, do not share your ID, bank or MFS details. Check whether the company has a real website, a trade licence and a physical address.",
+      "red_flag_hints": [
+        "unrealistic salary",
+        "up-front fee",
+        "only WhatsApp/Telegram contact",
+        "no interview"
+      ]
+    },
+    {
+      "id": "romance_crypto",
+      "category": "investment",
+      "severity": 0.9,
+      "name": {
+        "en": "Romance + Crypto / Pig-Butchering",
+        "bn": "প্রেম ও ক্রিপ্টো প্রতারণা",
+        "hi": "प्रेम और क्रिप्टो धोखा",
+        "ur": "محبت اور کریپٹو فراڈ"
+      },
+      "summary": {
+        "en": "A new online 'partner' becomes close very fast and then introduces a private crypto or trading platform with guaranteed profit.",
+        "bn": "নতুন অনলাইন 'পার্টনার' খুব দ্রুত ঘনিষ্ঠ হয়, তারপর নিশ্চিত লাভের ক্রিপ্টো/ট্রেডিং প্ল্যাটফর্মে বিনিয়োগ করতে বলে।",
+        "hi": "नया ऑनलाइन 'पार्टनर' जल्दी करीब आता है, फिर गारंटीड मुनाफे वाला क्रिप्टो प्लेटफॉर्म दिखाता है।",
+        "ur": "نیا آن لائن 'ساتھی' جلد قریب آتا ہے، پھر گارنٹی شدہ منافع والا کریپٹو پلیٹ فارم بتاتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "crypto",
+          "bitcoin",
+          "trading platform",
+          "forex",
+          "guaranteed profit",
+          "double your money",
+          "investment plan",
+          "i love you",
+          "dating app",
+          "usdt",
+          "trading bot",
+          "signal group"
+        ],
+        "bn": [
+          "ক্রিপ্টো",
+          "বিটকয়েন",
+          "ট্রেডিং",
+          "গ্যারান্টি",
+          "লাভ",
+          "বিনিয়োগ",
+          "ভালোবাসি",
+          "ডেটিং",
+          "ইউএসডিটি"
+        ],
+        "hi": [
+          "क्रिप्टो",
+          "बिटकॉइन",
+          "ट्रेडिंग",
+          "गारंटीड",
+          "मुनाफा",
+          "निवेश",
+          "प्यार",
+          "डेटिंग"
+        ],
+        "ur": [
+          "کریپٹو",
+          "بٹ کوائن",
+          "ٹریڈنگ",
+          "گارنٹی",
+          "منافع",
+          "سرمایہ کاری",
+          "محبت",
+          "ڈیٹنگ"
+        ]
+      },
+      "psychology": [
+        "emotional bonding",
+        "fear of missing out",
+        "small early 'profits' to build trust"
+      ],
+      "safe_response": "If an online relationship turns into an investment pitch, treat it as fraud. Never send money to a person or platform you cannot verify. Only use licensed exchanges that you find through official app stores and regulators.",
+      "red_flag_hints": [
+        "love talk plus money talk",
+        "guaranteed returns",
+        "private app or website link",
+        "asked to hide it from family"
+      ]
+    },
+    {
+      "id": "romance_blackmail",
+      "category": "blackmail",
+      "severity": 1.0,
+      "name": {
+        "en": "Sextortion / Blackmail",
+        "bn": "ব্ল্যাকমেইল বা অশ্লীল হুমকি",
+        "hi": "ब्लैकमेल / सेक्सटॉर्शन",
+        "ur": "بلیک میل / سیکس ٹورشن"
+      },
+      "summary": {
+        "en": "Someone claims to hold private photos, chats or videos and demands money to stay silent.",
+        "bn": "কেউ দাবি করে আপনার গোপন ছবি বা চ্যাট তার কাছে আছে, টাকা না দিলে ছড়িয়ে দেবে।",
+        "hi": "कोई दावा करता है कि उसके पास आपकी निजी तस्वीरें या चैट हैं, पैसे नहीं दिए तो सबको भेज देगा।",
+        "ur": "کوئی دعویٰ کرتا ہے کہ اس کے پاس آپ کی نجی تصاویر یا چیٹ ہیں، پیسے نہ دیے تو سب کو بھیج دے گا۔"
+      },
+      "keywords": {
+        "en": [
+          "private photos",
+          "your video",
+          "will send to your family",
+          "leak",
+          "viral",
+          "screenshot",
+          "pay or i will",
+          "blackmail",
+          "intimate"
+        ],
+        "bn": [
+          "গোপন ছবি",
+          "ভিডিও কল",
+          "সবাইকে পাঠাবো",
+          "ছড়িয়ে দেবো",
+          "টাকা না দিলে",
+          "স্ক্রিনশট",
+          "ব্ল্যাকমেইল"
+        ],
+        "hi": [
+          "निजी तस्वीर",
+          "वीडियो",
+          "सबको भेज दूंगा",
+          "वायरल",
+          "पैसे नहीं दिए",
+          "ब्लैकमेल"
+        ],
+        "ur": [
+          "نجی تصاویر",
+          "ویڈیو",
+          "سب کو بھیج دوں گا",
+          "وائرل",
+          "پیسے نہ دیے",
+          "بلیک میل"
+        ]
+      },
+      "psychology": [
+        "shame and fear",
+        "isolation (asking you to hide it)",
+        "urgency"
+      ],
+      "safe_response": "Do not pay — paying never stops the demands. Stop replying, take screenshots as evidence, block the person, and report to the police cyber cell or a helpline. Talk to someone you trust; you have not done anything wrong.",
+      "red_flag_hints": [
+        "threat to share private material",
+        "demand for money in MFS/crypto",
+        "pressure to keep it secret"
+      ],
+      "note": "Highest-harm category. Response text deliberately includes a mental-health-supportive line."
+    },
+    {
+      "id": "delivery_fee",
+      "category": "advance_fee",
+      "severity": 0.8,
+      "name": {
+        "en": "Parcel / Delivery Fee",
+        "bn": "কুরিয়ার বা ডেলিভারি ফি",
+        "hi": "पार्सल / डिलीवरी शुल्क",
+        "ur": "پارسل / ڈیلیوری فیس"
+      },
+      "summary": {
+        "en": "A message about a held parcel asks for a small delivery or customs fee through a link or mobile wallet.",
+        "bn": "আটকে থাকা পার্সেলের কথা বলে ছোট ডেলিভারি বা কাস্টম ফি লিংক/বিকাশে চাওয়া হয়।",
+        "hi": "रुके हुए पार्सल के नाम पर छोटी डिलीवरी या कस्टम फीस लिंक से मांगी जाती है।",
+        "ur": "روکے گئے پارسل کے نام پر چھوٹی ڈیلیوری یا کسٹم فیس لنک سے مانگی جاتی ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "bondh",
+          "charge",
+          "clearance fee",
+          "courier",
+          "custom",
+          "customs",
+          "delivery",
+          "delivery fee",
+          "held at customs",
+          "parcel",
+          "redelivery",
+          "reschedule delivery",
+          "shipping charge",
+          "your package is waiting"
+        ],
+        "bn": [
+          "পার্সেল",
+          "কুরিয়ার",
+          "ডেলিভারি চার্জ",
+          "কাস্টম",
+          "প্যাকেজ",
+          "শিপমেন্ট",
+          "আটকে আছে"
+        ],
+        "hi": [
+          "पार्सल",
+          "कूरियर",
+          "डिलीवरी शुल्क",
+          "कस्टम",
+          "पैकेज",
+          "शिपमेंट"
+        ],
+        "ur": [
+          "پارسل",
+          "کورئیر",
+          "ڈیلیوری فیس",
+          "کسٹم",
+          "پیکیج"
+        ]
+      },
+      "psychology": [
+        "small amount feels safe",
+        "curiosity about a package you may have ordered",
+        "urgency"
+      ],
+      "safe_response": "Track parcels only in the courier's official app or site, using a tracking number you already have. Never pay a 'release fee' through a link sent by SMS, and never enter card details.",
+      "red_flag_hints": [
+        "no tracking number",
+        "very small fee",
+        "unfamiliar courier domain",
+        "payment link instead of an app"
+      ],
+      "weak_keywords": [
+        "parcel",
+        "courier",
+        "পার্সেল",
+        "कूरियर",
+        "पार्सल",
+        "پارسل",
+        "کورئیر",
+        "প্যাকেজ",
+        "পیکیج"
+      ],
+      "weak_keywords_note": "Matched alone, these words are not evidence for this pattern (scammers and legitimate services both use them); they only count when a stronger keyword of the same pattern is present."
+    },
+    {
+      "id": "fake_authority",
+      "category": "authority",
+      "severity": 0.95,
+      "name": {
+        "en": "Fake Police / Customs / Court",
+        "bn": "পুলিশ, কাস্টম বা আদালতের নামে ভয়",
+        "hi": "नकली पुलिस / कस्टम",
+        "ur": "جعلی پولیس / کسٹم"
+      },
+      "summary": {
+        "en": "A caller or message says you are linked to a crime, parcel or legal case and demands a fine, a 'verification' transfer or personal data.",
+        "bn": "ফোন বা মেসেজে বলা হয় আপনার নামে মামলা বা অবৈধ পার্সেল আছে, জরিমানা বা তথ্য দিতে হবে।",
+        "hi": "कॉल या संदेश में कहा जाता है कि आपके नाम पर मामला है, जुर्माना या जानकारी देनी होगी।",
+        "ur": "کال یا پیغام میں کہا جاتا ہے کہ آپ کے نام پر مقدمہ ہے، جرمانہ یا معلومات دینی ہوں گی۔"
+      },
+      "keywords": {
+        "en": [
+          "arrest",
+          "arrest warrant",
+          "cbi",
+          "court notice",
+          "customs",
+          "cyber",
+          "cyber cell",
+          "digital arrest",
+          "fine",
+          "fir",
+          "giraftari",
+          "giriftari",
+          "illegal parcel",
+          "jurimana",
+          "legal action",
+          "mukdama",
+          "narcotics",
+          "notis",
+          "police",
+          "verification officer",
+          "warrant"
+        ],
+        "bn": [
+          "পুলিশ",
+          "সাইবার",
+          "কাস্টম",
+          "মামলা",
+          "গ্রেপ্তার",
+          "জরিমানা",
+          "অবৈধ",
+          "কোর্ট",
+          "নোটিশ",
+          "ওয়ারেন্ট"
+        ],
+        "hi": [
+          "पुलिस",
+          "साइबर",
+          "कस्टम",
+          "मुकदमा",
+          "गिरफ्तारी",
+          "जुर्माना",
+          "अवैध",
+          "कोर्ट",
+          "नोटिस"
+        ],
+        "ur": [
+          "پولیس",
+          "سائبر",
+          "کسٹم",
+          "مقدمہ",
+          "گرفتاری",
+          "جرمانہ",
+          "غیر قانونی",
+          "عدالت",
+          "وارنٹ"
+        ]
+      },
+      "psychology": [
+        "fear of authority",
+        "shame",
+        "time pressure and secrecy"
+      ],
+      "safe_response": "Police never collect fines over a phone call or a payment link, and never keep you on a video call to 'verify' you. Hang up, do not transfer money, and check with your local police station or the official cyber-crime portal.",
+      "red_flag_hints": [
+        "money demanded by an officer",
+        "secrecy instruction",
+        "video call 'interrogation'",
+        "payment to an individual account"
+      ]
+    },
+    {
+      "id": "tech_support",
+      "category": "remote_access",
+      "severity": 0.9,
+      "name": {
+        "en": "Fake Tech Support / Remote Access",
+        "bn": "ভুয়া টেক সাপোর্ট",
+        "hi": "नकली टेक सपोर्ट",
+        "ur": "جعلی ٹیک سپورٹ"
+      },
+      "summary": {
+        "en": "Someone claims your device is infected or your account is at risk and asks you to install a remote-access or screen-sharing app.",
+        "bn": "দাবি করা হয় আপনার ফোন বা কম্পিউটারে ভাইরাস, সমাধানে রিমোট অ্যাকসেস বা স্ক্রিন শেয়ার অ্যাপ ইনস্টল করতে বলে।",
+        "hi": "दावा किया जाता है कि आपके डिवाइस में वायरस है, रिमोट एक्सेस या स्क्रीन शेयरिंग ऐप इंस्टॉल करने को कहा जाता है।",
+        "ur": "دعویٰ کیا جاتا ہے کہ آپ کے ڈیوائس میں وائرس ہے، ریموٹ رسائی یا اسکرین شیئرنگ ایپ انسٹال کرنے کو کہا جاتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "microsoft",
+          "tech support",
+          "virus",
+          "infected",
+          "anydesk",
+          "teamviewer",
+          "quick support",
+          "remote access",
+          "screen share",
+          "your computer is",
+          "windows license expired",
+          "troubleshoot"
+        ],
+        "bn": [
+          "ভাইরাস",
+          "টেকনিক্যাল",
+          "রিমোট",
+          "স্ক্রিন শেয়ার",
+          "মাইক্রোসফট",
+          "অ্যাপ ইনস্টল",
+          "লাইসেন্স"
+        ],
+        "hi": [
+          "वायरस",
+          "टेक सपोर्ट",
+          "रिमोट",
+          "स्क्रीन शेयर",
+          "माइक्रोसॉफ्ट",
+          "इंस्टॉल"
+        ],
+        "ur": [
+          "وائرس",
+          "ٹیک سپورٹ",
+          "ریموٹ",
+          "اسکرین شیئر",
+          "مائیکروسافٹ",
+          "انسٹال"
+        ]
+      },
+      "psychology": [
+        "fear of damage or data loss",
+        "authority of a known brand",
+        "technical jargon"
+      ],
+      "safe_response": "No software company calls you about a virus. Never install AnyDesk/TeamViewer or share your screen for an unknown caller — they can see your OTPs and banking app. Uninstall the app if you already installed it, and change your passwords.",
+      "red_flag_hints": [
+        "unsolicited tech call",
+        "remote-access app",
+        "screen sharing",
+        "payment for support"
+      ],
+      "remote_access_apps": [
+        "anydesk",
+        "teamviewer",
+        "quicksupport",
+        "rustdesk",
+        "airdroid",
+        "supremo"
+      ]
+    },
+    {
+      "id": "loan_app",
+      "category": "advance_fee",
+      "severity": 0.8,
+      "name": {
+        "en": "Instant Loan App Fee",
+        "bn": "লোন অ্যাপ প্রতারণা",
+        "hi": "लोन ऐप धोखा",
+        "ur": "لون ایپ فراڈ"
+      },
+      "summary": {
+        "en": "An app promises a loan with no documents, then charges a processing fee or harvests your contacts and photos.",
+        "bn": "কাগজপত্র ছাড়া লোনের প্রস্তাব, পরে প্রসেসিং ফি দাবি বা কন্টাক্ট-ছবি ব্যবহার করে হুমকি।",
+        "hi": "बिना दस्तावेज लोन का वादा, फिर प्रोसेसिंग फीस या संपर्क/फोटो से ब्लैकमेल।",
+        "ur": "بغیر دستاویزات لون کا وعدہ، پھر پروسیسنگ فیس یا رابطوں اور تصاویر سے بلیک میل۔"
+      },
+      "keywords": {
+        "en": [
+          "5 minute approval",
+          "aadhaar loan",
+          "cibil",
+          "contact list",
+          "installment",
+          "instant loan",
+          "loan",
+          "loan app",
+          "no documents",
+          "photo gallery access",
+          "pre-approved loan",
+          "processing",
+          "processing fee",
+          "qarz",
+          "rin"
+        ],
+        "bn": [
+          "লোন",
+          "ঋণ",
+          "কাগজপত্র ছাড়া",
+          "প্রসেসিং ফি",
+          "তাৎক্ষণিক",
+          "অ্যাপ ডাউনলোড"
+        ],
+        "hi": [
+          "लोन",
+          "ऋण",
+          "बिना कागज",
+          "प्रोसेसिंग फीस",
+          "तुरंत",
+          "ऐप डाउनलोड"
+        ],
+        "ur": [
+          "لون",
+          "قرض",
+          "بغیر کاغذ",
+          "پروسیسنگ فیس",
+          "فوری",
+          "ایپ ڈاؤن لوڈ"
+        ]
+      },
+      "psychology": [
+        "urgent need for cash",
+        "simple process",
+        "small fee for a large amount"
+      ],
+      "safe_response": "Only borrow from banks or providers licensed by the central bank and listed on its website. Never install a loan app that asks for your contact list or gallery, and never pay a fee before receiving the loan.",
+      "red_flag_hints": [
+        "fee before disbursal",
+        "requests contacts or photos",
+        "not on the regulator's list"
+      ],
+      "official_channels": {
+        "regulator": "Bangladesh Bank / RBI / State Bank of Pakistan list of licensed institutions"
+      }
+    },
+    {
+      "id": "investment_doubling",
+      "category": "investment",
+      "severity": 0.9,
+      "name": {
+        "en": "Investment Doubling / Ponzi",
+        "bn": "বিনিয়োগে টাকা দ্বিগুণ",
+        "hi": "निवेश दुगुना करने का झांसा",
+        "ur": "سرمایہ کاری میں رقم دوگنی"
+      },
+      "summary": {
+        "en": "A group promises guaranteed doubling or huge monthly returns, often with a referral bonus for bringing in friends.",
+        "bn": "গ্রুপ বলে টাকা দ্বিগুণ বা বিপুল মুনাফা, সাথে বন্ধু আনলে রেফার বোনাস।",
+        "hi": "ग्रुप गारंटीड दुगना या भारी मुनाफे का दावा करता है, दोस्त लाने पर रेफरल बोनस देता है।",
+        "ur": "گروپ گارنٹی شدہ دوگنی رقم یا بھاری منافع کا دعویٰ کرتا ہے، دوست لانے پر ریفرل بونس دیتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "100 percent return",
+          "binoy",
+          "chain",
+          "daily profit",
+          "dobule",
+          "doguna",
+          "double",
+          "double your money",
+          "guarantee",
+          "guaranteed",
+          "guaranteed return",
+          "invest",
+          "limited slots",
+          "mlm",
+          "monthly profit",
+          "multi level",
+          "munafa",
+          "profit",
+          "referral bonus",
+          "return",
+          "risk free",
+          "sarmaya",
+          "trading group"
+        ],
+        "bn": [
+          "দ্বিগুণ",
+          "ডাবল",
+          "নিশ্চিত লাভ",
+          "দৈনিক মুনাফা",
+          "রেফার",
+          "সীমিত",
+          "শেয়ার",
+          "ট্রেডিং গ্রুপ",
+          "লাভ হবে"
+        ],
+        "hi": [
+          "दुगुना",
+          "गारंटीड रिटर्न",
+          "रोज मुनाफा",
+          "रेफरल",
+          "सीमित",
+          "ट्रेडिंग ग्रुप",
+          "रिस्क फ्री"
+        ],
+        "ur": [
+          "دوگنی",
+          "گارنٹی شدہ",
+          "روزانہ منافع",
+          "ریفرل",
+          "محدود",
+          "ٹریڈنگ گروپ"
+        ]
+      },
+      "psychology": [
+        "greed",
+        "social proof from people you know",
+        "small early payout to build trust"
+      ],
+      "safe_response": "Anyone who guarantees high returns is breaking the rules of finance. Check whether the company is licensed by the securities regulator, and never invest money you cannot afford to lose because a friend recommended it.",
+      "red_flag_hints": [
+        "guaranteed high returns",
+        "referral rewards",
+        "no licence",
+        "pressure to recruit others"
+      ]
+    },
+    {
+      "id": "phishing_link",
+      "category": "phishing",
+      "severity": 0.9,
+      "name": {
+        "en": "Account Suspension Phishing Link",
+        "bn": "একাউন্ট বন্ধের ভুয়া লিংক",
+        "hi": "अकाउंट बंद होने का नकली लिंक",
+        "ur": "اکاؤنٹ بند ہونے کا جعلی لنک"
+      },
+      "summary": {
+        "en": "A brand-name message says your account, card or subscription will be closed unless you log in through a link.",
+        "bn": "পরিচিত ব্র্যান্ডের নামে মেসেজ: লিংকে লগইন না করলে একাউন্ট বা কার্ড বন্ধ হবে।",
+        "hi": "जाने-माने ब्रांड के नाम पर संदेश: लिंक से लॉगिन न करें तो अकाउंट या कार्ड बंद।",
+        "ur": "مشہور برانڈ کے نام پر پیغام: لنک سے لاگ ان نہ کریں تو اکاؤنٹ یا کارڈ بند۔"
+      },
+      "keywords": {
+        "en": [
+          "click here",
+          "click the link",
+          "verify your account",
+          "unusual sign in",
+          "login to confirm",
+          "card blocked",
+          "account on hold",
+          "suspended",
+          "reactivate",
+          "secure link",
+          "urgent action required",
+          "http"
+        ],
+        "bn": [
+          "লিংকে ক্লিক",
+          "যাচাই করুন",
+          "একাউন্ট বন্ধ",
+          "কার্ড বন্ধ",
+          "লগইন",
+          "ভেরিফাই",
+          "লিংক",
+          "আপডেট করুন"
+        ],
+        "hi": [
+          "लिंक पर क्लिक",
+          "वेरिफाई करें",
+          "अकाउंट बंद",
+          "कार्ड ब्लॉक",
+          "लॉगिन",
+          "अपडेट करें"
+        ],
+        "ur": [
+          "لنک پر کلک",
+          "تصدیق کریں",
+          "اکاؤنٹ بند",
+          "کارڈ بلاک",
+          "لاگ ان",
+          "اپڈیٹ"
+        ]
+      },
+      "psychology": [
+        "fear of losing access",
+        "brand familiarity",
+        "urgency"
+      ],
+      "safe_response": "Do not tap the link. Open the official app or type the official website address yourself. If the message claims to be your bank, call the number printed on your card or passbook.",
+      "red_flag_hints": [
+        "link instead of an app",
+        "misspelled or hyphenated domain",
+        "urgency",
+        "asks for login on a form"
+      ],
+      "weak_keywords": [
+        "http",
+        "link",
+        "লিংক",
+        "लिंक",
+        "لنک"
+      ],
+      "weak_keywords_note": "Matched alone, these words are not evidence for this pattern (scammers and legitimate services both use them); they only count when a stronger keyword of the same pattern is present."
+    },
+    {
+      "id": "whatsapp_otp_takeover",
+      "category": "credential_theft",
+      "severity": 0.9,
+      "name": {
+        "en": "WhatsApp / SIM Takeover Code",
+        "bn": "হোয়াটসঅ্যাপ দখলের কোড",
+        "hi": "व्हाट्सएप कोड चोरी",
+        "ur": "واٹس ایپ کوڈ چوری"
+      },
+      "summary": {
+        "en": "Someone says they sent a code to your phone by mistake and asks you to forward it, so they can take over your account.",
+        "bn": "কেউ বলে ভুলে আপনার নাম্বারে কোড এসেছে, ওটা পাঠিয়ে দিতে বললে আপনার অ্যাকাউন্ট দখল হয়ে যেতে পারে।",
+        "hi": "कोई कहता है कि उसका कोड गलती से आपके फोन पर आया, भेज दें—इससे आपका अकाउंट हैक हो जाता है।",
+        "ur": "کوئی کہتا ہے کہ اس کا کوڈ غلطی سے آپ کے فون پر آیا، بھیج دیں—اس سے اکاؤنٹ ہیک ہو جاتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "6 digit code",
+          "account will be deactivated",
+          "forward me the code",
+          "forward that code",
+          "forward the code",
+          "forward the message you received",
+          "forward the otp",
+          "paste the code here",
+          "re-register",
+          "relay the code",
+          "send me the code",
+          "send the code to me",
+          "sent by mistake",
+          "share the code with me",
+          "someone else's number",
+          "verification code",
+          "whatsapp code",
+          "wrong number"
+        ],
+        "bn": [
+          "একাউন্ট বন্ধ",
+          "ওই কোড পাঠান",
+          "কোড পাঠান",
+          "কোড ফরওয়ার্ড",
+          "কোডটা দিন",
+          "কোডটা পাঠান",
+          "ভুলে এসেছে",
+          "ভেরিফিকেশন কোড",
+          "হোয়াটসঅ্যাপ নম্বর",
+          "৬ ডিজিট"
+        ],
+        "hi": [
+          "6 अंकों का कोड",
+          "अकाउंट बंद",
+          "कोड फॉरवर्ड",
+          "कोड बता दें",
+          "कोड भेज दें",
+          "गलती से आया",
+          "वह कोड भेजें",
+          "वेरिफिकेशन कोड"
+        ],
+        "ur": [
+          "6 ہندسوں کا کوڈ",
+          "اکاؤنٹ بند",
+          "تصدیقی کوڈ",
+          "غلطی سے آیا",
+          "وہ کوڈ بھیجیں",
+          "کوڈ بھیج دیں",
+          "کوڈ فارورڈ"
+        ]
+      },
+      "psychology": [
+        "politeness",
+        "small request",
+        "technical confusion"
+      ],
+      "safe_response": "Never forward a login code to anyone. Enable two-step verification in WhatsApp (Settings → Account → Two-step verification) so a stolen code cannot take over your account.",
+      "red_flag_hints": [
+        "code requested by a person",
+        "stranger's polite excuse",
+        "account takeover risk"
+      ],
+      "weak_keywords": [
+        "whatsapp",
+        "হোয়াটসঅ্যাপ",
+        "व्हाट्सएप",
+        "واٹس ایپ"
+      ],
+      "weak_keywords_note": "Matched alone, these words are not evidence for this pattern (scammers and legitimate services both use them); they only count when a stronger keyword of the same pattern is present."
+    },
+    {
+      "id": "remote_access_screen_share",
+      "category": "remote_access",
+      "severity": 0.95,
+      "name": {
+        "en": "Screen-Sharing \"Customer Care\"",
+        "bn": "স্ক্রিন শেয়ার কাস্টমার কেয়ার",
+        "hi": "स्क्रीन शेयर ग्राहक सेवा",
+        "ur": "اسکرین شیئر کسٹمر کیئر"
+      },
+      "summary": {
+        "en": "A fake customer-care agent asks you to install a screen-sharing app to 'fix' a problem while they watch your OTPs and transfers.",
+        "bn": "ভুয়া কাস্টমার কেয়ার এজেন্ট স্ক্রিন শেয়ার অ্যাপ ইনস্টল করতে বলে, তখন সে আপনার ওটিপি ও লেনদেন দেখে নেয়।",
+        "hi": "नकली कस्टमर केयर एजेंट स्क्रीन शेयरिंग ऐप इंस्टॉल करने को कहता है, फिर आपका ओटीपी और ट्रांजैक्शन देखता है।",
+        "ur": "جعلی کسٹمر کیئر ایجنٹ اسکرین شیئرنگ ایپ انسٹال کرنے کو کہتا ہے، پھر آپ کا او ٹی پی اور ٹرانزیکشن دیکھتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "screen sharing",
+          "share screen",
+          "google meet link",
+          "install this app",
+          "customer care number",
+          "refund not received",
+          "transaction stuck",
+          "tech team will help",
+          "teamviewer",
+          "anydesk",
+          "quick support"
+        ],
+        "bn": [
+          "স্ক্রিন শেয়ার",
+          "কাস্টমার কেয়ার নাম্বার",
+          "অ্যাপ ইনস্টল",
+          "রিফান্ড",
+          "টাকা আটকে",
+          "টেক টিম"
+        ],
+        "hi": [
+          "स्क्रीन शेयर",
+          "कस्टमर केयर नंबर",
+          "ऐप इंस्टॉल",
+          "रिफंड",
+          "ट्रांजैक्शन अटका"
+        ],
+        "ur": [
+          "اسکرین شیئر",
+          "کسٹمر کیئر نمبر",
+          "ایپ انسٹال",
+          "رقم واپسی",
+          "ٹرانزیکشن رکی"
+        ]
+      },
+      "psychology": [
+        "trust in 'customer care'",
+        "hope of fixing a real problem",
+        "authority"
+      ],
+      "safe_response": "Find customer-care numbers only inside the official app or on the official website. A real agent never needs to see your screen, and never needs your OTP. If you already shared the screen, uninstall the app, change your passwords and call your bank's official helpline.",
+      "red_flag_hints": [
+        "screen sharing requested",
+        "care number from a search result or YouTube video",
+        "claimed refund"
+      ],
+      "remote_access_apps": [
+        "anydesk",
+        "teamviewer",
+        "quicksupport",
+        "rustdesk",
+        "google meet",
+        "zoom"
+      ]
+    },
+    {
+      "id": "refund_otp_theft",
+      "category": "credential_theft",
+      "severity": 0.9,
+      "name": {
+        "en": "Fake Refund / Wrong Transfer",
+        "bn": "ভুয়া রিফান্ড বা ভুল টাকা",
+        "hi": "नकली रिफंड या गलत ट्रांसफर",
+        "ur": "جعلی ریفنڈ یا غلط ٹرانسفر"
+      },
+      "summary": {
+        "en": "A message says a refund or an extra payment is waiting, and to receive or return it you must share card details, an OTP, or send money back.",
+        "bn": "বলা হয় রিফান্ড বা অতিরিক্ত টাকা এসেছে; ফেরাতে বা নিতে কার্ড তথ্য, ওটিপি বা টাকা পাঠাতে হবে।",
+        "hi": "कहा जाता है कि रिफंड या ज्यादा पैसा आया है; वापस करने के लिए कार्ड डिटेल, ओटीपी या पैसे भेजने होंगे।",
+        "ur": "کہا جاتا ہے کہ ریفنڈ یا اضافی رقم آئی ہے؛ واپس کرنے کے لیے کارڈ تفصیل، او ٹی پی یا پیسے بھیجنے ہوں گے۔"
+      },
+      "keywords": {
+        "en": [
+          "refund",
+          "cashback",
+          "extra amount",
+          "wrongly transferred",
+          "send it back",
+          "return the money",
+          "card number",
+          "expiry date",
+          "cvv",
+          "otp to receive",
+          "reverse the transaction"
+        ],
+        "bn": [
+          "রিফান্ড",
+          "ক্যাশব্যাক",
+          "বেশি টাকা",
+          "ভুলে পাঠানো",
+          "ফেরত দিন",
+          "কার্ড নাম্বার",
+          "ওটিপি দিলে"
+        ],
+        "hi": [
+          "रिफंड",
+          "कैशबैक",
+          "ज्यादा रकम",
+          "गलती से भेजा",
+          "वापस करें",
+          "कार्ड नंबर",
+          "ओटीपी"
+        ],
+        "ur": [
+          "ریفنڈ",
+          "کیش بیک",
+          "اضافی رقم",
+          "غلطی سے بھیجا",
+          "واپس کریں",
+          "کارڈ نمبر",
+          "او ٹی پی"
+        ]
+      },
+      "psychology": [
+        "honesty gets exploited",
+        "fear of being blamed",
+        "technical confusion about reversals"
+      ],
+      "safe_response": "Money is never needed to receive money. A real refund goes back to the same account automatically. Never share an OTP to 'receive' a payment, and if a transfer looks wrong, contact your bank instead of the sender.",
+      "red_flag_hints": [
+        "OTP needed to receive money",
+        "asymmetric request (send, don't receive)",
+        "card details via chat"
+      ],
+      "weak_keywords": [
+        "refund",
+        "রিফান্ড",
+        "रिफंड",
+        "ریفنڈ",
+        "cashback"
+      ],
+      "weak_keywords_note": "Matched alone, these words are not evidence for this pattern (scammers and legitimate services both use them); they only count when a stronger keyword of the same pattern is present."
+    },
+    {
+      "id": "task_scam",
+      "category": "advance_fee",
+      "severity": 0.8,
+      "name": {
+        "en": "Task / Like-and-Earn Scam",
+        "bn": "টাস্ক বা লাইক দিয়ে আয়",
+        "hi": "टास्क / लाइक से कमाई",
+        "ur": "ٹاسک / لائک سے کمائی"
+      },
+      "summary": {
+        "en": "You are paid small amounts for simple online tasks, then asked to deposit a bigger amount to 'unlock' a higher-paying task.",
+        "bn": "সহজ অনলাইন টাস্কে ছোট পেমেন্ট দিয়ে ভরসা জোগায়, পরে বড় টাকা 'ডিপোজিট' করতে বলে।",
+        "hi": "आसान ऑनलाइन टास्क पर छोटा भुगतान देकर भरोसा बनाया जाता है, फिर बड़ी रकम 'डिपॉजिट' करने को कहा जाता है।",
+        "ur": "آسان آن لائن ٹاسک پر چھوٹی ادائیگی سے اعتماد بنایا جاتا ہے، پھر بڑی رقم 'ڈپازٹ' کرنے کو کہا جاتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "agent",
+          "commission",
+          "complete task",
+          "daily payout",
+          "deposit",
+          "deposit to unlock",
+          "like",
+          "like koro",
+          "like videos",
+          "recharge to earn",
+          "task",
+          "telegram",
+          "video",
+          "vip task",
+          "watch videos",
+          "youtube like"
+        ],
+        "bn": [
+          "টেলিগ্রাম",
+          "ভিডিও দেখে",
+          "লাইক",
+          "টাস্ক",
+          "কমিশন",
+          "ডিপোজিট",
+          "ভিআইপি",
+          "এজেন্ট",
+          "দৈনিক পেমেন্ট"
+        ],
+        "hi": [
+          "टेलीग्राम",
+          "वीडियो लाइक",
+          "टास्क",
+          "कमीशन",
+          "डिपॉजिट",
+          "वीआईपी",
+          "एजेंट",
+          "रोज भुगतान"
+        ],
+        "ur": [
+          "ٹیلی گرام",
+          "ویڈیو لائک",
+          "ٹاسک",
+          "کمیشن",
+          "ڈپازٹ",
+          "وی آئی پی",
+          "ایجنٹ",
+          "روزانہ ادائیگی"
+        ]
+      },
+      "psychology": [
+        "small early proof of payment",
+        "sunk cost after first deposit",
+        "social proof in a group chat"
+      ],
+      "safe_response": "Legitimate platforms never ask you to deposit money to earn money. Leave the group as soon as a 'deposit to unlock' step appears and warn the other members.",
+      "red_flag_hints": [
+        "deposit required to work",
+        "Telegram-only operations",
+        "escalating amounts",
+        "small real payouts first"
+      ]
+    },
+    {
+      "id": "govt_scheme",
+      "category": "advance_fee",
+      "severity": 0.85,
+      "name": {
+        "en": "Fake Government Scheme / Subsidy",
+        "bn": "ভুয়া সরকারি প্রকল্প",
+        "hi": "नकली सरकारी योजना",
+        "ur": "جعلی سرکاری اسکیم"
+      },
+      "summary": {
+        "en": "A message claims you are selected for a government grant, subsidy or free benefit and asks for a registration fee and your ID.",
+        "bn": "মেসেজে দাবি করা হয় সরকারি অনুদান/ভর্তুকি পাবেন, সাথে রেজিস্ট্রেশন ফি ও আইডি চাওয়া হয়।",
+        "hi": "संदेश में दावा किया जाता है कि सरकारी अनुदान मिलेगा, साथ रजिस्ट्रेशन फीस और आईडी मांगी जाती है।",
+        "ur": "پیغام میں دعویٰ کیا جاتا ہے کہ سرکاری گرانٹ ملے گی، ساتھ رجسٹریشن فیس اور شناختی کارڈ مانگا جاتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "government scheme",
+          "subsidy",
+          "pm kisan",
+          "benefit transfer",
+          "grant",
+          "free ration",
+          "housing scheme",
+          "welfare",
+          "registration fee",
+          "selected beneficiaries",
+          "official scheme"
+        ],
+        "bn": [
+          "সরকারি",
+          "প্রকল্প",
+          "ভর্তুকি",
+          "অনুদান",
+          "নির্বাচিত",
+          "ভাতা",
+          "রেজিস্ট্রেশন",
+          "সুবিধা"
+        ],
+        "hi": [
+          "सरकारी योजना",
+          "सब्सिडी",
+          "अनुदान",
+          "लाभ",
+          "रजिस्ट्रेशन",
+          "चयनित"
+        ],
+        "ur": [
+          "سرکاری اسکیم",
+          "سبسڈی",
+          "گرانٹ",
+          "فائدہ",
+          "رجسٹریشن",
+          "منتخب"
+        ]
+      },
+      "psychology": [
+        "hope for help",
+        "authority of government",
+        "fear of missing a benefit"
+      ],
+      "safe_response": "Government benefits are not granted through links or a fee. Check the official scheme website or your local government office, and never send money or a full copy of your ID to an unknown number.",
+      "red_flag_hints": [
+        "fee for a benefit",
+        "ID copy across WhatsApp",
+        "no official domain",
+        "unrealistic amount"
+      ]
+    },
+    {
+      "id": "utility_disconnection",
+      "category": "phishing",
+      "severity": 0.8,
+      "name": {
+        "en": "Utility Bill Disconnection Threat",
+        "bn": "বিদ্যুৎ বিল বন্ধের হুমকি",
+        "hi": "बिजली बिल काटने की धमकी",
+        "ur": "بجلی بل کاٹنے کی دھمکی"
+      },
+      "summary": {
+        "en": "A message says your electricity, gas or water will be cut tonight unless you pay immediately through a link.",
+        "bn": "মেসেজে বলা হয় আজ রাতেই বিদ্যুৎ/গ্যাস সংযোগ কাটা হবে, লিংকে এখনই টাকা দিতে হবে।",
+        "hi": "संदेश कहता है कि आज रात बिजली/गैस कट जाएगी, लिंक से तुरंत पैसे दें।",
+        "ur": "پیغام کہتا ہے کہ آج رات بجلی/گیس کٹ جائے گی، لنک سے فوراً پیسے دیں۔"
+      },
+      "keywords": {
+        "en": [
+          "bill",
+          "bill overdue",
+          "chere dibe",
+          "connection",
+          "disconnected tonight",
+          "disconnection",
+          "electricity bill",
+          "gas bill",
+          "kat",
+          "kat jabe",
+          "kati",
+          "kwh",
+          "last warning",
+          "pay now",
+          "reconnection fee",
+          "water bill"
+        ],
+        "bn": [
+          "বিল",
+          "সংযোগ বন্ধ",
+          "বিদ্যুৎ",
+          "গ্যাস",
+          "খুব দ্রুত",
+          "চার্জ",
+          "ডিসকানেক্ট"
+        ],
+        "hi": [
+          "बिल",
+          "कनेक्शन बंद",
+          "बिजली",
+          "गैस",
+          "जल्दी",
+          "काट दिया जाएगा"
+        ],
+        "ur": [
+          "بل",
+          "کنکشن بند",
+          "بجلی",
+          "گیس",
+          "فوری",
+          "کاٹ دیا جائے گا"
+        ]
+      },
+      "psychology": [
+        "fear of dark home or cold",
+        "urgency",
+        "small amount"
+      ],
+      "safe_response": "Pay bills only in the utility's own app, its official website, or a known counter. Disconnection notices never arrive as a payment link from a private number.",
+      "red_flag_hints": [
+        "payment link",
+        "threat with a short deadline",
+        "no account number"
+      ],
+      "utility_tokens": [
+        "electricity",
+        "gas",
+        "water",
+        "power",
+        "বিদ্যুৎ",
+        "গ্যাস",
+        "बिजली",
+        "गैस",
+        "بجلی",
+        "گیس"
+      ],
+      "weak_keywords": [
+        "bill",
+        "বিল",
+        "बिल",
+        "بل",
+        "connection",
+        "সংযোগ",
+        "کنکشن"
+      ]
+    },
+    {
+      "id": "advance_fee_fraud",
+      "category": "advance_fee",
+      "severity": 0.9,
+      "name": {
+        "en": "Advance-Fee / Foreign Funds",
+        "bn": "বিদেশি টাকার প্রলোভন",
+        "hi": "विदेशी रकम का झांसा",
+        "ur": "بیرونی رقم کا لالچ"
+      },
+      "summary": {
+        "en": "A stranger needs help moving a large sum or a big inheritance and promises you a share if you pay a small cost first.",
+        "bn": "অপরিচিত কেউ বড় অঙ্কের টাকা সরাতে সাহায্য চায়, ছোট খরচ দিলে ভাগ দেবে বলে।",
+        "hi": "अजनबी बड़ी रकम या विरासत को भेजने में मदद मांगता है, छोटा खर्च देने पर हिस्सा देने का वादा करता है।",
+        "ur": "اجنبی بڑی رقم یا وراثت منتقل کرنے میں مدد مانگتا ہے، چھوٹا خرچ دینے پر حصہ دینے کا وعدہ کرتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "millions of dollars",
+          "inheritance",
+          "beneficiary",
+          "diplomatic bag",
+          "compensation fund",
+          "united nations",
+          "army officer",
+          "transfer fee",
+          "commission for you",
+          "confidential",
+          "bank account details"
+        ],
+        "bn": [
+          "কোটি টাকা",
+          "বিদেশি",
+          "উত্তরাধিকারী",
+          "কমিশন",
+          "ফান্ড",
+          "গোপন রাখুন",
+          "একাউন্ট নাম্বার"
+        ],
+        "hi": [
+          "करोड़ रुपये",
+          "विदेशी",
+          "उत्तराधिकार",
+          "कमीशन",
+          "फंड",
+          "गोपनीय",
+          "अकाउंट नंबर"
+        ],
+        "ur": [
+          "کروڑ روپے",
+          "بیرونی",
+          "ورثہ",
+          "کمیشن",
+          "فنڈ",
+          "خفیہ",
+          "اکاؤنٹ نمبر"
+        ]
+      },
+      "psychology": [
+        "greed",
+        "storytelling and secrecy",
+        "authority of foreign institutions"
+      ],
+      "safe_response": "There is no money waiting for you from a stranger. Share the message with a family member, do not send any fee or bank details, and report it as an attempted fraud.",
+      "red_flag_hints": [
+        "unsolicited windfall",
+        "fee before you receive",
+        "secrecy request",
+        "copied legal-sounding text"
+      ]
+    },
+    {
+      "id": "matrimonial",
+      "category": "advance_fee",
+      "severity": 0.8,
+      "name": {
+        "en": "Matrimonial / Marriage Broker Fraud",
+        "bn": "বিয়ের প্রস্তাবের প্রতারণা",
+        "hi": "विवाह प्रस्ताव में ठगी",
+        "ur": "شادی کے رشتے میں فراڈ"
+      },
+      "summary": {
+        "en": "A marriage proposal through a matrimonial site or a broker turns into a request for money for engagement, travel or a 'family emergency'.",
+        "bn": "ম্যাট্রিমনিয়াল সাইট বা দালালের মাধ্যমে বিয়ের প্রস্তাব, পরে এনগেজমেন্ট বা ভ্রমণের জন্য টাকা চাওয়া হয়।",
+        "hi": "मैट्रिमोनियल साइट या दलाल के जरिए रिश्ता, फिर सगाई या यात्रा के लिए पैसे मांगे जाते हैं।",
+        "ur": "میٹریمونیئل سائٹ یا دلال کے ذریعے رشتہ، پھر منگنی یا سفر کے لیے پیسے مانگے جاتے ہیں۔"
+      },
+      "keywords": {
+        "en": [
+          "matrimonial",
+          "marriage proposal",
+          "engagement ceremony",
+          "bride",
+          "groom",
+          "dowry",
+          "my daughter will marry",
+          "family from abroad",
+          "shaadi",
+          "rishta",
+          "advance for wedding"
+        ],
+        "bn": [
+          "বিয়ে",
+          "পাত্রী",
+          "পাত্র",
+          "সম্বন্ধ",
+          "এনগেজমেন্ট",
+          "যৌতুক",
+          "রিশতা",
+          "বিদেশ থেকে"
+        ],
+        "hi": [
+          "शादी",
+          "रिश्ता",
+          "सगाई",
+          "दहेज",
+          "वर",
+          "वधू",
+          "विदेश से"
+        ],
+        "ur": [
+          "شادی",
+          "رشتہ",
+          "منگنی",
+          "جہیز",
+          "دلہن",
+          "دولھا",
+          "بیرون ملک سے"
+        ]
+      },
+      "psychology": [
+        "hope of a good match",
+        "family pressure",
+        "gradual small requests"
+      ],
+      "safe_response": "Never send money to a marriage prospect or an agent you have not met. Verify the family in person through people you trust, and report the profile on the platform.",
+      "red_flag_hints": [
+        "money before meeting",
+        "all online, no video",
+        "broker fee",
+        "rushed timeline"
+      ]
+    },
+    {
+      "id": "fake_family_emergency",
+      "category": "impersonation",
+      "severity": 0.9,
+      "name": {
+        "en": "Fake Family Emergency",
+        "bn": "ভুয়া পারিবারিক বিপদ",
+        "hi": "नकली पारिवारिक आपातकाल",
+        "ur": "جعلی خاندانی ایمرجنسی"
+      },
+      "summary": {
+        "en": "Someone pretends to be your son, daughter or a relative with a new number and urgently needs money.",
+        "bn": "কেউ আপনার ছেলে-মেয়ে বা আত্মীয় সেজে নতুন নাম্বার থেকে দ্রুত টাকা চায়।",
+        "hi": "कोई खुद को आपका बेटा-बेटी या रिश्तेदार बताकर नए नंबर से तुरंत पैसे मांगता है।",
+        "ur": "کوئی اپنے آپ کو آپ کا بیٹا/بیٹی یا رشتہ دار بتا کر نئے نمبر سے فوراً پیسے مانگتا ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "accident",
+          "bail",
+          "dad",
+          "don't call now",
+          "dru",
+          "druto",
+          "durghotona",
+          "hospital",
+          "i am in trouble",
+          "jaldi",
+          "lost my phone",
+          "mom",
+          "new number",
+          "paisa bhejo",
+          "phone is broken",
+          "send money fast",
+          "taka pathao",
+          "this is my new sim",
+          "turant"
+        ],
+        "bn": [
+          "নতুন নাম্বার",
+          "মোবাইল হারিয়ে",
+          "মা",
+          "বাবা",
+          "হাসপাতাল",
+          "দুর্ঘটনা",
+          "দ্রুত টাকা",
+          "ফোন করো না",
+          "নতুন সিম"
+        ],
+        "hi": [
+          "नया नंबर",
+          "फोन खो गया",
+          "माँ",
+          "पापा",
+          "हॉस्पिटल",
+          "दुर्घटना",
+          "जल्दी पैसे",
+          "कॉल मत करो"
+        ],
+        "ur": [
+          "نیا نمبر",
+          "فون گم ہو گیا",
+          "امی",
+          "ابو",
+          "ہسپتال",
+          "حادثہ",
+          "فوراً پیسے",
+          "کال نہ کرو"
+        ]
+      },
+      "psychology": [
+        "panic",
+        "love for family",
+        "no time to verify"
+      ],
+      "safe_response": "Call the family member on their old number before sending anything. Ask a question only they can answer. Real emergencies survive one verification call.",
+      "red_flag_hints": [
+        "new or unknown number",
+        "urgent money request",
+        "told not to call",
+        "cannot explain details"
+      ],
+      "weak_keywords": [
+        "hospital",
+        "মা",
+        "বাবা",
+        "আম্মু",
+        "अम्मी",
+        "पापा",
+        "माँ",
+        "امی",
+        "ابو",
+        "হাসপাতাল",
+        "हॉस्पिटल",
+        "हस्पताल",
+        "ہسپتال"
+      ],
+      "weak_keywords_note": "These words appear in ordinary family messages all the time; on their own they are not evidence of an emergency scam."
+    },
+    {
+      "id": "mfs_reversal",
+      "category": "impersonation",
+      "severity": 0.85,
+      "name": {
+        "en": "Wrong Transfer / Send It Back",
+        "bn": "ভুল টাকা ফেরত চাওয়া",
+        "hi": "गलत ट्रांसफर वापसी",
+        "ur": "غلط ٹرانسفر کی واپسی"
+      },
+      "summary": {
+        "en": "Someone sends a payment then asks you to return it to a different number; often the original payment is later reversed or was fraudulent.",
+        "bn": "কেউ টাকা পাঠিয়ে অন্য নাম্বারে ফেরত চায়; পরে আসল লেনদেন বাতিল হয় বা প্রতারণার টাকা থাকে।",
+        "hi": "कोई भुगतान भेजकर दूसरे नंबर पर वापस मांगता है; बाद में वह भुगतान रद्द हो जाता है।",
+        "ur": "کوئی رقم بھیج کر دوسرے نمبر پر واپسی مانگتا ہے؛ بعد میں وہ ٹرانزیکشن کینسل ہو جاتی ہے۔"
+      },
+      "keywords": {
+        "en": [
+          "bheja",
+          "bhejein",
+          "extra amount",
+          "ferot",
+          "i will complain",
+          "merchant error",
+          "pathaise",
+          "pathan",
+          "please return",
+          "return",
+          "reverse it",
+          "send to this number",
+          "sent by mistake",
+          "wapas",
+          "wrong number"
+        ],
+        "bn": [
+          "ভুলে পাঠিয়েছি",
+          "ফেরত দেন",
+          "ভুল নাম্বারে",
+          "বেশি টাকা",
+          "ফেরত দিন",
+          "একই নাম্বারে"
+        ],
+        "hi": [
+          "गलती से भेजा",
+          "वापस करें",
+          "गलत नंबर",
+          "ज्यादा रकम",
+          "फेर दें"
+        ],
+        "ur": [
+          "غلطی سے بھیجا",
+          "واپس کریں",
+          "غلط نمبر",
+          "اضافی رقم",
+          "واپس بھیجیں"
+        ]
+      },
+      "psychology": [
+        "social pressure",
+        "fear of legal trouble",
+        "willingness to be helpful"
+      ],
+      "safe_response": "Do not send money back to a new number. Ask the person to contact their own bank or MFS agent, and confirm the original transaction with the official app or helpline before doing anything.",
+      "red_flag_hints": [
+        "return to a different number",
+        "pressure and threats",
+        "verification not offered"
+      ]
+    },
+    {
+      "id": "crypto_giveaway",
+      "category": "investment",
+      "severity": 0.85,
+      "name": {
+        "en": "Crypto Giveaway / Airdrop",
+        "bn": "ক্রিপ্টো গিভঅ্যাওয়ে",
+        "hi": "क्रिप्टो गिवअवे",
+        "ur": "کریپٹو گوو ایوے"
+      },
+      "summary": {
+        "en": "A fake giveaway asks you to send a small amount of crypto to receive double back, often using a famous person's name.",
+        "bn": "ভুয়া গিভঅ্যাওয়েতে ছোট অঙ্কের ক্রিপ্টো পাঠালে দ্বিগুণ ফেরতের প্রলোভন, প্রায়ই বিখ্যাত ব্যক্তির নামে।",
+        "hi": "नकली गिवअवे छोटी रकम भेजने पर दुगुनी वापसी का लालच देता है, अक्सर मशहूर नाम का इस्तेमाल करके।",
+        "ur": "جعلی گوو ایوے چھوٹی رقم بھیجنے پر دوگنی واپسی کا لالچ دیتا ہے، اکثر مشہور شخصیت کے نام سے۔"
+      },
+      "keywords": {
+        "en": [
+          "airdrop",
+          "giveaway",
+          "elon",
+          "musk",
+          "free crypto",
+          "send 0.1",
+          "double crypto",
+          "verified wallet",
+          "promotion event",
+          "first 1000 users"
+        ],
+        "bn": [
+          "এয়ারড্রপ",
+          "গিভঅ্যাওয়ে",
+          "ফ্রি",
+          "ওয়ালেট",
+          "দ্বিগুণ"
+        ],
+        "hi": [
+          "एयरड्रॉप",
+          "गिवअवे",
+          "फ्री क्रिप्टो",
+          "वॉलेट",
+          "दुगना"
+        ],
+        "ur": [
+          "ایئر ڈراپ",
+          "گوو ایوے",
+          "مفت کریپٹو",
+          "والٹ",
+          "دوگنا"
+        ]
+      },
+      "psychology": [
+        "celebrity trust",
+        "scarcity",
+        "small risk for big reward"
+      ],
+      "safe_response": "Real giveaways never ask you to send funds first. Verify any crypto event only on the project's official website or its verified social account.",
+      "red_flag_hints": [
+        "send first to receive later",
+        "celebrity name",
+        "wallet address in a comment or DM",
+        "time-limited"
+      ]
+    }
+  ]
+}

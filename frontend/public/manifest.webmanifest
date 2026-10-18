@@ -1,0 +1,18 @@
+{
+  "name": "ScamLens — scam checker & digital literacy coach",
+  "short_name": "ScamLens",
+  "description": "Check a suspicious message, link, screenshot or voice note. Get a plain-language verdict, a complaint draft and a 60-second lesson — in Bangla, English, Hindi or Urdu.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7fafc",
+  "theme_color": "#1e6ff0",
+  "lang": "en",
+  "categories": ["security", "education", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

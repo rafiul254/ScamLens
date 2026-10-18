@@ -1,0 +1,54 @@
+{"text": "আপনার হোয়াটসঅ্যাপ অ্যাকাউন্ট ভেরিফাই করতে কোডটি পাঠান। অন্যথায় অ্যাকাউন্ট ডিলিট হয়ে যাবে। কোড পেয়েছেন কি?", "label": "scam", "language": "bn", "pattern": "whatsapp_otp_takeover"}
+{"text": "স্যার আমি গ্রামীণ ফোন কাস্টমার কেয়ার থেকে বলছি। আপনার নাম্বারে সমস্যা হয়েছে, দূর করতে অ্যাপ ইনস্টল করে স্ক্রিন শেয়ার করুন।", "label": "scam", "language": "bn", "pattern": "remote_access_screen_share"}
+{"text": "ইভ্যালি/অনলাইন শপ থেকে বলছি, আপনার অর্ডারে অতিরিক্ত টাকা এসেছে। রিফান্ড করতে আপনার কার্ডের শেষ ৬ ডিজিট আর ওটিপি দিন।", "label": "scam", "language": "bn", "pattern": "refund_otp_theft"}
+{"text": "ইউটিউবে ভিডিও দেখে দিনে ৩০০০ টাকা। টাস্ক কমপ্লিট করলেই পেমেন্ট। এজেন্ট নিয়োগ চলছে, টেলিগ্রামে জয়েন করুন।", "label": "scam", "language": "bn", "pattern": "task_scam"}
+{"text": "আপনার ছেলের বিয়ে দিতে টাকা লাগবে? আমাদের সংস্থা বিনা সুদে ঋণ দেয়। রেজিস্ট্রেশন ফি ১০০০ টাকা পাঠান।", "label": "scam", "language": "bn", "pattern": "loan_app"}
+{"text": "তোমার গোপন ছবি আমার কাছে আছে। টাকা না দিলে সবাইকে পাঠিয়ে দেবো। ২০,০০০ টাকা এই বিকাশে পাঠাও।", "label": "scam", "language": "bn", "pattern": "sextortion"}
+{"text": "রকেট থেকে বলছি, আপনার একাউন্টে সন্দেহজনক লেনদেন হয়েছে। ভেরিফিকেশন করতে পিন নাম্বার দিন।", "label": "scam", "language": "bn", "pattern": "fake_otp_mfs"}
+{"text": "বিনামূল্যে ইলেকট্রিক বিল মাফ! সরকারি প্রকল্পে রেজিস্ট্রেশন করুন, শুধু ১০০ টাকা ফর্ম ফি। লিংক: ebt-rebate.info", "label": "scam", "language": "bn", "pattern": "govt_scheme"}
+{"text": "প্রিয় গ্রাহক, আপনার মোবাইলে ২০ জিবি ইন্টারনেট রিচার্জ সফল হয়েছে। ব্যালেন্স কাটা হয়েছে ২৯৯ টাকা। ধন্যবাদ, রবি।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "আপনার অর্ডারটি ডেলিভারির জন্য প্রস্তুত। কুরিয়ার প্রতিনিধি আজ বিকেলে আসবে। পেমেন্ট ক্যাশ অন ডেলিভারি।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "আসসালামু আলাইকুম, বিকাশে টাকা পাঠিয়েছি ৫০০ টাকা। ট্রানজেকশন আইডি দিয়ে চেক করে বলো।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "মা, অফিস থেকে আজ একটু দেরিতে বের হবো। তুমি খেয়ে নিও, আমি ফিরে এসে খাবো।", "label": "ham", "language": "bn", "pattern": null}
+{"text": "Hi, this is bKash. Your account statement for October is available in the app. We never ask for your PIN or OTP.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Congratulations! You are the lucky winner of a free iPhone 16. Just pay 999 shipping and send your bank details to claim your prize today.", "label": "scam", "language": "en", "pattern": "prize_lottery"}
+{"text": "Amazon security alert: your account is on hold. Verify your identity and card details at amazon-account-verify.support within 12 hours.", "label": "scam", "language": "en", "pattern": "phishing_link"}
+{"text": "This is your bank. A suspicious transaction of 25,000 was made. To block it, confirm your OTP now on this call.", "label": "scam", "language": "en", "pattern": "fake_otp_mfs"}
+{"text": "We are hiring for a part time data entry job. Earn 3,000 daily. Pay 500 registration and share your ID card photo on WhatsApp.", "label": "scam", "language": "en", "pattern": "fake_job"}
+{"text": "Your electricity will be disconnected tonight because your last bill was not updated. Pay now at http://bill-pay-online.xyz to avoid disconnection.", "label": "scam", "language": "en", "pattern": "utility_disconnection"}
+{"text": "Sir, I got your number from the matrimonial site. My daughter is interested. Please send 20,000 for engagement ceremony arrangement to this account.", "label": "scam", "language": "en", "pattern": "matrimonial"}
+{"text": "Free 50GB data for all users. Claim at http://free-data-offer.buzz before midnight. Only 3 hours left.", "label": "scam", "language": "en", "pattern": "phishing_link"}
+{"text": "I am a US Army officer stationed in Syria. I need help moving my funds, you will receive 2 million dollars if you assist me.", "label": "scam", "language": "en", "pattern": "advance_fee_fraud"}
+{"text": "Your WhatsApp will be deactivated. Send the 6 digit code we just sent to you to verify you are the owner of this number.", "label": "scam", "language": "en", "pattern": "whatsapp_otp_takeover"}
+{"text": "Earn money from home by watching videos. Complete simple tasks and get paid daily. Join our Telegram channel with a small joining fee.", "label": "scam", "language": "en", "pattern": "task_scam"}
+{"text": "Google Pay customer care here. Your money is stuck in transfer. Install this screen sharing app and share the screen so we can fix it.", "label": "scam", "language": "en", "pattern": "remote_access_screen_share"}
+{"text": "I am a student and I will offer you my scholarship funds for a small commission. Send 5,000 for transfer charges and get 2,00,000.", "label": "scam", "language": "en", "pattern": "advance_fee_fraud"}
+{"text": "Your SIM card will be blocked in 2 hours as per TRAI order. Press 1 to talk to our officer and complete re-verification by sharing OTP.", "label": "scam", "language": "en", "pattern": "kyc_update"}
+{"text": "Hi team, the monthly report is attached. Let me know if the numbers for Q3 look right before we send it to the client.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Your appointment with the dentist is confirmed for Thursday 11:30 am. Reply C to cancel.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Your mobile bill of 899 has been paid successfully. Thank you for using our service. Invoice is in the app.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Hey, are you joining the cricket match on Friday? We need two more players, let me know tonight.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Reminder: your library book is due on 22 October. Renew online to avoid a late fee.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Dear parent, the school will remain closed on Sunday for the annual sports day. Timings 9 am to 2 pm.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Your loan EMI of 4,500 was received on 10 October. Next EMI due on 10 November. This is an automated message, do not share OTP with anyone.", "label": "ham", "language": "en", "pattern": null}
+{"text": "Hi, I am the delivery agent. Your parcel is at the gate, please come down. Cash on delivery amount is 450.", "label": "ham", "language": "en", "pattern": null}
+{"text": "आपका बिजली कनेक्शन आज रात काट दिया जाएगा। तुरंत इस लिंक पर भुगतान करें वरना कनेक्शन बहाल करने के लिए 2,000 जमा करने होंगे।", "label": "scam", "language": "hi", "pattern": "utility_disconnection"}
+{"text": "आपका व्हाट्सएप बंद हो जाएगा। हमें भेजा गया 6 अंकों का कोड बताएं ताकि आपका नंबर वेरिफाई हो सके।", "label": "scam", "language": "hi", "pattern": "whatsapp_otp_takeover"}
+{"text": "सरकारी योजना में आपका नाम आया है, 1.5 लाख की सहायता राशि मिलेगी। रजिस्ट्रेशन के लिए 800 रुपये और आधार कार्ड भेजें।", "label": "scam", "language": "hi", "pattern": "govt_scheme"}
+{"text": "हम फ्लिपकार्ट कस्टमर केयर से हैं। आपका रिफंड अटका है, स्क्रीन शेयरिंग ऐप इंस्टॉल करें और ओटीपी बताएं।", "label": "scam", "language": "hi", "pattern": "refund_otp_theft"}
+{"text": "यूट्यूब वीडियो लाइक करके रोज 2,000 कमाएं। टेलीग्राम ग्रुप जॉइन करें और पहला टास्क पूरा करें।", "label": "scam", "language": "hi", "pattern": "task_scam"}
+{"text": "मैं अमेरिकी सेना का अफसर हूं, मुझे 2 मिलियन डॉलर भेजने में मदद करें, आपको 20 प्रतिशत कमीशन मिलेगा।", "label": "scam", "language": "hi", "pattern": "advance_fee_fraud"}
+{"text": "आपकी निजी तस्वीरें मेरे पास हैं। 25,000 रुपये नहीं भेजे तो सबको भेज दूंगा।", "label": "scam", "language": "hi", "pattern": "sextortion"}
+{"text": "ALERT: Aapke SBI card ka CVV update karna hai. Is link par jaiye aur card number, expiry, PIN daaliye: sbi-card-secure.cf", "label": "scam", "language": "hi", "pattern": "phishing_link"}
+{"text": "बेटा, कल सुबह ट्रेन है 7 बजे। स्टेशन 30 मिनट पहले पहुंच जाना। टिकट मैंने ऑनलाइन कर दी है।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "आपका मोबाइल रिचार्ज सफल रहा। 2GB/दिन के साथ 84 दिन की वैधता। धन्यवाद।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "आपकी शिकायत दर्ज हो गई है। संदर्भ संख्या 45821, 48 घंटे में समाधान मिलेगा।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "मीटिंग कल शाम 5 बजे शिफ्ट हो गई है, कैलेंडर अपडेट कर दिया है।", "label": "ham", "language": "hi", "pattern": null}
+{"text": "دھیان دیں: بینک کبھی بھی فون پر OTP یا پن نہیں مانگتا۔ کسی کے کہنے پر کوڈ شیئر نہ کریں۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "آپ کا موبائل بیل 1,499 روپے کامیابی سے جمع ہو گیا ہے۔ شکریہ، رسید ایپ میں موجود ہے۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "مبارک ہو، آپ کا ڈرائیونگ لائسنس تیار ہے۔ آفس سے 11 بجے سے 3 بجے تک وصول کریں۔", "label": "ham", "language": "ur", "pattern": null}
+{"text": "آپ کے پارسل کو کسٹم میں روکا گیا ہے۔ چھڑانے کے لیے 3,000 روپے اس نمبر پر بھیجیں ورنہ واپس چلا جائے گا۔", "label": "scam", "language": "ur", "pattern": "delivery_fee"}
+{"text": "ف ری وائ فائی اور 40 جی بی ڈیٹا مفت! لنک پر کلک کریں اور اپنا شناختی کارڈ نمبر اور OTP درج کریں۔", "label": "scam", "language": "ur", "pattern": "phishing_link"}
+{"text": "میں نے آپ کی تصویر میٹریمونی سائٹ پر دیکھی، بہت پسند آئی۔ رشتہ طے کرنے کے لیے 15,000 روپے ایڈوانس بھیجیں۔", "label": "scam", "language": "ur", "pattern": "matrimonial"}
+{"text": "یوٹیوب ویڈیوز لائک کریں اور روزانہ 3,000 کمائیں۔ ٹیلی گرام گروپ جوائن کریں، پہلا ٹاسک مکمل کریں۔", "label": "scam", "language": "ur", "pattern": "task_scam"}
+{"text": "ہم جاز کسٹمر کیئر سے ہیں، آپ کے نمبر پر سیٹنگ مسئلہ ہے۔ اینی ڈیسک انسٹال کریں اور اسکرین شیئر کریں۔", "label": "scam", "language": "ur", "pattern": "remote_access_screen_share"}

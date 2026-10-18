@@ -1,0 +1,20 @@
+# Deploy the ScamLens PWA on Netlify.
+# The API lives elsewhere (Render/Railway) — set VITE_API_BASE to its URL, e.g.
+#   VITE_API_BASE = "https://scamlens-api.onrender.com"
+# and add that same frontend origin to FRONTEND_ORIGINS on the backend.
+[build]
+  base    = "frontend"
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "no-referrer"

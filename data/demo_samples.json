@@ -1,0 +1,162 @@
+{
+  "version": "1.0.0",
+  "note": "Demo Mode samples. All messages are synthetic, written by the ScamLens team from documented fraud typologies. No real person's data is used. The `expected` field is what a careful human analyst would decide; it is shown in the UI so judges can see the product is not always alarmist.",
+  "samples": [
+    {
+      "id": "bkash_prize_bn",
+      "kind": "text",
+      "language": "bn",
+      "expected": "SCAM",
+      "title": {
+        "en": "bKash prize SMS (Bangla)",
+        "bn": "বিকাশ পুরস্কারের এসএমএস",
+        "hi": "बिकाश इनाम एसएमएस",
+        "ur": "بکاش انعام کا پیغام"
+      },
+      "text": "অভিনন্দন! আপনার নাম্বারটি ৫,০০,০০০ টাকার লটারি জিতেছে। প্রাইজ প্রাইজ পেতে এখনই ০১৭১২৩৪৫৬৭৮ নাম্বারে কল করুন এবং ৫০০ টাকা প্রসেসিং ফি বিকাশ করুন। শেষ সময় আজ রাত ১২টা।"
+    },
+    {
+      "id": "fake_kyc_bn",
+      "kind": "text",
+      "language": "bn",
+      "expected": "SCAM",
+      "title": {
+        "en": "Fake KYC / SIM-block SMS (Bangla)",
+        "bn": "ভুয়া কেওয়াইসি এসএমএস",
+        "hi": "नकली केवाईसी एसएमएस",
+        "ur": "جعلی کے وائی سی پیغام"
+      },
+      "text": "প্রিয় গ্রাহক, আপনার সিম কার্ডের KYC আপডেট না থাকায় আজ রাতেই নাম্বার বন্ধ করা হবে। দ্রুত http://robi-kyc-update.tk লিংকে গিয়ে আপনার NID নাম্বার ও OTP দিন। সহায়তার জন্য ০১৮১১১১১১১১ নাম্বারে কল করুন।"
+    },
+    {
+      "id": "fake_job_bn",
+      "kind": "text",
+      "language": "bn",
+      "expected": "SCAM",
+      "title": {
+        "en": "Work-from-home job fee (romanised Bangla)",
+        "bn": "ঘরে বসে কাজের প্রস্তাব",
+        "hi": "घर बैठे काम का प्रस्ताव",
+        "ur": "گھر بیٹھے کام کی پیشکش"
+      },
+      "text": "Ghore boshe mobile diye kaj korun, mashe 30,000 taka income. Kono experience lagbe na, shudhu registration fee 500 taka bKash korun 01799887766 number e. Ajkei last date, WhatsApp korun."
+    },
+    {
+      "id": "delivery_link_en",
+      "kind": "text",
+      "language": "en",
+      "expected": "SCAM",
+      "title": {
+        "en": "Parcel held at customs (link)",
+        "bn": "কাস্টমে আটকে থাকা পার্সেল",
+        "hi": "कस्टम में रुका पार्सल",
+        "ur": "کسٹم میں رکا پارسل"
+      },
+      "text": "Dear customer, your parcel BD-4471 is held at customs. Pay the 250 BDT clearance fee within 12 hours at http://courier-clearance-pay.xyz/release or it will be returned to sender."
+    },
+    {
+      "id": "voice_family_en",
+      "kind": "audio_transcript",
+      "language": "en",
+      "expected": "SCAM",
+      "title": {
+        "en": "Voice note: 'this is your son'",
+        "bn": "ভয়েস নোট: 'আমি তোমার ছেলে'",
+        "hi": "वॉइस नोट: 'मैं तुम्हारा बेटा हूँ'",
+        "ur": "وائس نوٹ: 'میں تمہارا بیٹا ہوں'"
+      },
+      "text": "Mom, this is my new number, my phone broke. I am in a little trouble, please send 15,000 taka to this bKash number 01812345678 quickly. Don't call now, the network is bad, I will explain later. Please don't tell father yet."
+    },
+    {
+      "id": "police_threat_hi",
+      "kind": "text",
+      "language": "hi",
+      "expected": "SCAM",
+      "title": {
+        "en": "Fake police / customs threat (Hindi)",
+        "bn": "ভুয়া পুলিশ হুমকি (হিন্দি)",
+        "hi": "नकली पुलिस धमकी",
+        "ur": "جعلی پولیس دھمکی"
+      },
+      "text": "मैं साइबर सेल से बोल रहा हूँ। आपके नाम पर एक पार्सल में ड्रग्स मिली है और आपके नाम पर FIR दर्ज हो चुकी है। मामला बंद करने के लिए २५,००० रुपये इस अकाउंट में भेजें। किसी को न बताएं, वरना गिरफ्तारी होगी।"
+    },
+    {
+      "id": "loan_app_hi_roman",
+      "kind": "text",
+      "language": "hi",
+      "expected": "SCAM",
+      "title": {
+        "en": "Instant loan app fee (Hinglish)",
+        "bn": "লোন অ্যাপ ফি (হিংলিশ)",
+        "hi": "लोन ऐप फीस (हिंग्लिश)",
+        "ur": "لون ایپ فیس"
+      },
+      "text": "Sir aapka loan 2 lakh approved hai, bina documents ke. App install karo aur 3000 rupaye processing fee bhejo is number par. Approval 10 minute me ho jayega, jaldi karo."
+    },
+    {
+      "id": "electricity_ur",
+      "kind": "text",
+      "language": "ur",
+      "expected": "SCAM",
+      "title": {
+        "en": "Electricity disconnection threat (Urdu)",
+        "bn": "বিদ্যুৎ বিল বন্ধের হুমকি (উর্দু)",
+        "hi": "बिजली बिल धमकी (उर्दू)",
+        "ur": "بجلی کاٹنے کی دھمکی"
+      },
+      "text": "آپ کا بجلی کا بل گزشتہ ماہ سے واجب الادا ہے۔ آج رات 9 بجے کنکشن کاٹ دیا جائے گا۔ فوری طور پر http://wapda-bill-payment-portal.top پر ادائیگی کریں ورنہ 5,000 روپے فیس لگے گی۔"
+    },
+    {
+      "id": "crypto_double_en",
+      "kind": "text",
+      "language": "en",
+      "expected": "SCAM",
+      "title": {
+        "en": "Crypto 'double your money' (English)",
+        "bn": "ক্রিপ্টোতে টাকা দ্বিগুণ",
+        "hi": "क्रिप्टो में पैसा दुगुना",
+        "ur": "کریپٹو میں رقم دوگنی"
+      },
+      "text": "Hi, I am your friend's cousin. I run an AI trading bot that doubles any investment in 30 days, 100% guaranteed. Minimum 10,000 taka via USDT. Only 5 slots left, and you get a 20% referral bonus for every friend you add. Send me your USDT wallet address."
+    },
+    {
+      "id": "whatsapp_code_en",
+      "kind": "text",
+      "language": "en",
+      "expected": "SCAM",
+      "title": {
+        "en": "WhatsApp takeover code request",
+        "bn": "হোয়াটসঅ্যাপ কোড চুরি",
+        "hi": "व्हाट्सएप कोड चोरी",
+        "ur": "واٹس ایپ کوڈ چوری"
+      },
+      "text": "Hello, sorry to disturb you. I sent a 6 digit verification code to your number by mistake because I typed my own number wrong. Please forward that code to me, it is urgent. Thank you so much."
+    },
+    {
+      "id": "legit_bank_en",
+      "kind": "text",
+      "language": "en",
+      "expected": "SAFE",
+      "title": {
+        "en": "A legitimate bank alert (control case)",
+        "bn": "আসল ব্যাংক অ্যালার্ট",
+        "hi": "असली बैंक अलर्ट",
+        "ur": "اصل بینک الرٹ"
+      },
+      "text": "Your account 4210 was debited 1,250 BDT on 14 Oct at 18:42 to a merchant payment. Ref 8845102. If this was not you, call the number printed on your card. Staff will never ask for your PIN or OTP."
+    },
+    {
+      "id": "legit_family_bn",
+      "kind": "text",
+      "language": "bn",
+      "expected": "SAFE",
+      "title": {
+        "en": "A normal family message (control case)",
+        "bn": "স্বাভাবিক পারিবারিক মেসেজ",
+        "hi": "सामान्य पारिवारिक संदेश",
+        "ur": "عام خاندانی پیغام"
+      },
+      "text": "মা, আমি হাসপাতালে দাদাকে দেখতে এসেছি। রিপোর্ট ভালো, বিকেলে বাসায় ফিরবো। তুমি খেয়ে নিও, আমার জন্য অপেক্ষা করো না।"
+    }
+  ]
+}

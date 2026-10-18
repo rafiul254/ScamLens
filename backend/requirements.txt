@@ -1,0 +1,16 @@
+# Runtime requirements for the ScamLens API.
+# Deliberately WITHOUT torch/sentence-transformers: the production text backend is
+# the TF-IDF classifier (it scored higher on the validation split — see
+# ml/artifacts/metrics.json), so the API stays small and starts in ~2 seconds.
+# Install ml/requirements-ml.txt instead if you want the embedding backend.
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+pydantic-settings>=2.2
+httpx>=0.27
+python-multipart>=0.0.9
+scikit-learn>=1.4
+numpy>=1.26
+joblib>=1.3
+rapidfuzz>=3.6
+google-genai>=1.0.0
