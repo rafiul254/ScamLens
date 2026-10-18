@@ -185,7 +185,7 @@ Disclosed as the hackathon's AI-usage policy requires.
 
 | Where | What | Notes |
 |---|---|---|
-| **Anthropic Claude** (`claude-sonnet-5-5`) | the agent loop (tool use, ≤ 6 steps), vision OCR for screenshots, in-language lesson/report/family-alert writing | key read from `ANTHROPIC_API_KEY`, server-side only; **optional** |
+| **Google Gemini** (`gemini 3.8 Flash`) | the agent loop (tool use, ≤ 6 steps), vision OCR for screenshots, in-language lesson/report/family-alert writing | key read from `Gemini_API_KEY`, server-side only; **optional** |
 | **scikit-learn** | TF-IDF + calibrated logistic regression text classifier; calibrated logistic regression link model; ensemble tuning | trained by us on real corpora |
 | **sentence-transformers** (paraphrase-multilingual-MiniLM-L12-v2) | second text backend (trained, benchmarked, selectable with `TEXT_MODEL_BACKEND=embedding`) | optional dependency |
 | **Curated pattern library** | 23 documented scam typologies with red flags, psychology and safe responses, keyword-matched in 4 languages | hand-written, no model needed |
