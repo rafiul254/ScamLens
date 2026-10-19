@@ -15,4 +15,5 @@ services:
         value: /data/scamlens.db
       - key: ML_ARTIFACTS_DIR
         value: /app/ml/artifacts
-        
+      - key: GROQ_MODEL
+      value: openai/gpt-oss-120b
