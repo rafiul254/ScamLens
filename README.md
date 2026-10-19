@@ -9,7 +9,7 @@
 
 ScamLens is a multilingual digital-safety app for people in Bangladesh and across South Asia. It checks suspicious messages and links, explains the warning signs in plain language, and suggests safe next steps. The interface supports **English, Bangla (বাংলা), Hindi (हिन्दी), and Urdu (اردو)**.
 
-**Live product:** [scamlens-api.onrender.com](https://scamlens-api.onrender.com/) · [API health](https://scamlens-api.onrender.com/api/health)
+**Live product:** [scamlens-api.onrender.com](https://scamlens-api.onrender.com) · [API health](https://scamlens-api.onrender.com/api/health)
 
 ---
 
