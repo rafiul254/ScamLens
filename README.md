@@ -69,7 +69,7 @@ flowchart TB
 | Provider / model | Use in ScamLens | Limitations / disclosure |
 |---|---|---|
 | **Google Gemini Developer API — `gemini-3.8-flash`** | Primary agent provider; tool calling, localized content, and screenshot OCR/vision | API key is server-side (`GEMINI_API_KEY`). Free-tier quotas can be exhausted; Google’s free-tier data-use terms may apply. |
-| **Groq API — `llama-3.3-70b-versatile`** | Optional fallback for supported text requests when Gemini is rate-limited or unavailable | API key is server-side (`GROQ_API_KEY`). It does not provide the screenshot-vision fallback in this deployment. |
+| **Groq API — `openai/gpt-oss-120b`** | Optional fallback for supported text requests when Gemini is rate-limited or unavailable | API key is server-side (`GROQ_API_KEY`). It does not provide the screenshot-vision fallback in this deployment. |
 | **AI coding assistant** | Assisted during development | The code was reviewed and tested by the solo participant. |
 
 The Gemini API is optional. Do not send confidential information. Typed text PII is redacted before the hosted model call; screenshot images are not automatically blurred, so crop or blur them first. Review Google’s [current Gemini API pricing and data-use terms](https://ai.google.dev/gemini-api/docs/pricing).
