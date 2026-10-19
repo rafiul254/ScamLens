@@ -40,7 +40,7 @@ class Settings(BaseSettings):
     # OpenAI-compatible chat completions. Only used when Gemini cannot answer;
     # the deterministic local agent remains the last resort.
     groq_api_key: str | None = None
-    groq_model: str = "llama-3.3-70b-versatile"
+    groq_model: str = "openai/gpt-oss-120b"
     groq_base_url: str = "https://api.groq.com/openai/v1"
     groq_timeout_seconds: float = 25.0
     # After a 429 RESOURCE_EXHAUSTED the client stops calling the API for this
