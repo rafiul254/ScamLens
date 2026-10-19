@@ -29,10 +29,12 @@ dist/
 submission/
 
 # training arrays are reproducible; keep the small runtime model bundles available to clones
-ml/artifacts/*.npz
 ml/artifacts/*.joblib
+submission/
+ml/artifacts/*.npz
 !ml/artifacts/text_classifier.joblib
 !ml/artifacts/url_risk_model.joblib
+
 
 # os
 .DS_Store

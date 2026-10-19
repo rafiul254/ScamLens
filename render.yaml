@@ -1,34 +1,18 @@
-# Render blueprint — deploys the ScamLens API (and serves the PWA from the same origin).
-#   Render dashboard → New → Blueprint → point at this repository.
 services:
   - type: web
     name: scamlens-api
-    runtime: python
+    runtime: docker
     plan: free
-    buildCommand: |
-      pip install -r backend/requirements.txt
-      pip install pandas      # needed once, to build the datasets at deploy time
-      python ml/download_data.sh || echo "dataset download skipped"
-      python ml/build_text_dataset.py
-      python ml/train_text_model.py --skip-embeddings
-      python ml/build_url_dataset.py --sample-per-class 20000
-      python ml/train_url_model.py
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --app-dir backend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
     healthCheckPath: /api/health
     envVars:
-      - key: GEMINI_API_KEY
-        sync: false            # set it in the dashboard; never commit it
       - key: GEMINI_MODEL
         value: gemini-3.8-flash
-      - key: GROQ_API_KEY
-        sync: false            # automatic fallback when Gemini is rate-limited
-      - key: GROQ_MODEL
-        value: llama-3.3-70b-versatile
       - key: ENVIRONMENT
         value: production
+      - key: DB_PATH
+        value: /data/scamlens.db
       - key: ML_ARTIFACTS_DIR
-        value: ml/artifacts
-      - key: FRONTEND_ORIGINS
-        value: https://your-frontend.vercel.app,http://localhost:5173
-      - key: PYTHON_VERSION
-        value: 3.12.4
+        value: /app/ml/artifacts
+        

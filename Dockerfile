@@ -25,7 +25,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 
 RUN apt-get update \
- && apt-get install -y --no-install-recommends curl ca-certificates \
+ && apt-get install -y --no-install-recommends curl ca-certificates libgomp1 \
  && rm -rf /var/lib/apt/lists/*
 
 COPY backend/requirements.txt ./backend/requirements.txt
@@ -49,9 +49,9 @@ RUN useradd --create-home --uid 10001 scamlens \
  && mkdir -p /data && chown -R scamlens:scamlens /data /app
 USER scamlens
 
-EXPOSE 8000
+EXPOSE 10000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
-  CMD curl -fsS http://127.0.0.1:8000/api/health || exit 1
+  CMD-SHELL curl -fsS "http://127.0.0.1:${PORT:-10000}/api/health" || exit 1
 
-# One worker: the model is loaded once and the app is stateless besides SQLite.
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--app-dir", "backend"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000} --app-dir backend"]
+
